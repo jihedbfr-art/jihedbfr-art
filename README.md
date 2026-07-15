@@ -1,23 +1,30 @@
 # Hi, I'm Jihed 👋
 
-**Full-stack developer heading into DevSecOps & AI engineering.**
+**Senior Software Engineer — Java/Spring microservices architecture, with a background most web developers don't have: 10+ years deep in telecom BSS/network provisioning.**
 
-I build things end to end — from Spring Boot microservices to Angular frontends — and I care about what happens after the code works: pipelines, security, and running it for real.
+I spent years inside the systems that actually run mobile networks — provisioning, number portability, 5G core migrations (Nokia → Huawei) — before moving into modern microservices architecture. That combination is the lens everything I build goes through: I don't just want code that works, I want systems that hold up under real operational conditions, because I've spent a decade debugging the ones that didn't.
 
-## 🚀 What I'm working on
+## 💼 Currently
 
-- 📚 **[dev-library](https://github.com/jihedbfr-art/dev-library)** — a curated knowledge base I'm building in public: DevSecOps, cybersecurity, AI engineering, cheatsheets and roadmaps. Goal: make it a reference worth bookmarking.
-- 📝 **[notes-app-microservices](https://github.com/jihedbfr-art/notes-app-microservices)** — a notes application built as a real microservices system: Spring Boot services, Eureka discovery, Keycloak (OIDC), Angular, fully dockerized.
+**Senior Software & Solutions Engineer** — architecting a 14+ service Spring Boot / Angular 17 microservices platform (customs & trade digitization, TTN — Tunisia TradeNet). Keycloak/OIDC security, BPMN workflows, Kafka eventing, full CI/CD.
+
+**Before that:** 5G core provisioning & BSS integration (Ooredoo Tunisia) — HLR/HSS/EPS/VoLTE/UDM/PCRF connectors, Nokia-to-Huawei core migration, number portability systems. If you've read the [telecom module](https://github.com/jihedbfr-art/dev-library/tree/main/telecom) in my library, this is where that came from — not textbooks, production incidents.
+
+## 🚀 What I'm building
+
+- 📚 **[dev-library](https://github.com/jihedbfr-art/dev-library)** — a developer encyclopedia I'm building in public: computer science, DevSecOps, cybersecurity, AI engineering, cloud, mobile, data engineering, and a telecom module most software repos don't have because most software engineers have never worked inside a telecom core network.
 
 ## 🛠️ Stack
 
-`Java` `Spring Boot` `Spring Cloud` `Angular` `TypeScript` `Keycloak` `Docker` `PostgreSQL` `Git` `Linux`
+`Java` `Spring Boot` `Spring Cloud` `Angular` `TypeScript` `Keycloak` `Oracle PL/SQL` `PostgreSQL` `Kafka` `Docker` `Jenkins` `Linux`
+
+**Telecom depth:** BSS/OSS, provisioning, 5G core (UDM/PCRF), number portability, Nokia & Huawei network systems
 
 **Learning now:** Kubernetes · CI/CD security gates · LLM app engineering
 
 ## 📫 Reach me
 
-- GitHub: you're here 🙂
+- LinkedIn: [jihedbenarfa](https://www.linkedin.com/in/jihedbenarfa/)
 - Email: jihedbenarfa2026@gmail.com
 
 ---
