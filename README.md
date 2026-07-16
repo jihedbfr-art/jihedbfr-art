@@ -8,11 +8,11 @@ I spent years inside the systems that actually run mobile networks — provision
 
 **Senior Software & Solutions Engineer** — architecting a 14+ service Spring Boot / Angular 17 microservices platform (customs & trade digitization, TTN — Tunisia TradeNet). Keycloak/OIDC security, BPMN workflows, Kafka eventing, full CI/CD.
 
-**Before that:** 5G core provisioning & BSS integration (Ooredoo Tunisia) — HLR/HSS/EPS/VoLTE/UDM/PCRF connectors, Nokia-to-Huawei core migration, number portability systems. If you've read the [telecom module](https://github.com/jihedbfr-art/dev-library/tree/main/telecom) in my library, this is where that came from — not textbooks, production incidents.
+**Before that:** 5G core provisioning & BSS integration (Ooredoo Tunisia) — HLR/HSS/EPS/VoLTE/UDM/PCRF connectors, Nokia-to-Huawei core migration, number portability systems. If you've read the [telecom domain](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge/telecom) in my library, this is where that came from — not textbooks, production incidents.
 
 ## 🚀 What I'm building
 
-- 📚 **[dev-library](https://github.com/jihedbfr-art/dev-library)** — a developer encyclopedia I'm building in public: computer science, DevSecOps, cybersecurity, AI engineering, cloud, mobile, data engineering, and a telecom module most software repos don't have because most software engineers have never worked inside a telecom core network.
+- 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — one coherent ecosystem, not a pile of repos: real projects (nano → macro scale, Spring Boot / vanilla Java / Angular), practice-level engineering knowledge (ADRs, cookbook, failures, security patterns), and a developer encyclopedia (computer science, DevSecOps, cybersecurity, AI engineering, cloud, mobile, data engineering, and a telecom module most software repos don't have because most software engineers have never worked inside a telecom core network).
 
 ## 🛠️ Stack
 
