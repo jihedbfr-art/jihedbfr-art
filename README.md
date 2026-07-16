@@ -6,7 +6,7 @@ I spent years inside the systems that actually run mobile networks — provision
 
 ## 💼 Currently
 
-**Senior Software & Solutions Engineer** — architecting a 14+ service Spring Boot / Angular 17 microservices platform (customs & trade digitization, TTN — Tunisia TradeNet). Keycloak/OIDC security, BPMN workflows, Kafka eventing, full CI/CD.
+**Senior Software & Solutions Engineer** — architecting a multi-service Spring Boot / Angular 17 microservices platform for a government digitization program (trade/customs domain). Keycloak/OIDC security, BPMN workflows, Kafka eventing, full CI/CD.
 
 **Before that:** 5G core provisioning & BSS integration (Ooredoo Tunisia) — HLR/HSS/EPS/VoLTE/UDM/PCRF connectors, Nokia-to-Huawei core migration, number portability systems. If you've read the [telecom domain](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge/telecom) in my library, this is where that came from — not textbooks, production incidents.
 
