@@ -13,6 +13,7 @@ I spent years inside the systems that actually run mobile networks — provision
 ## 🚀 What I'm building
 
 - 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — one coherent ecosystem, not a pile of repos: real projects (nano → macro scale, Spring Boot / vanilla Java / Angular), practice-level engineering knowledge (ADRs, cookbook, failures, security patterns), and a developer encyclopedia (computer science, DevSecOps, cybersecurity, AI engineering, cloud, mobile, data engineering, and a telecom module most software repos don't have because most software engineers have never worked inside a telecom core network).
+- 📖 **[the-github-engineering-blueprint](https://github.com/jihedbfr-art/the-github-engineering-blueprint)** — a book on building a durable software engineering career and an elite GitHub profile: engineering identity, architecture decision-making, Open Source curation, and personal branding.
 
 ## 🛠️ Stack
 
