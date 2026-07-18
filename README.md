@@ -14,7 +14,7 @@ I spent years inside the systems that actually run mobile networks — provision
 
 - 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Spring Boot auto-configuration for Keycloak-secured resource servers. Fixes the role-mapping gap that breaks `hasRole()` on every fresh Spring + Keycloak setup, plus RFC 7807 error responses. On JitPack.
 - 🧩 **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** — custom Keycloak SPI providers: a conditional authenticator, a Kafka event listener, a legacy user storage federation. Each tested against a real Keycloak server via Testcontainers, not just unit-mocked.
-- 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — an executable Camunda + Spring Boot + Kafka saga modeling multi-operator number portability: SLA timeouts, compensation, human review. Not another pizza-order demo.
+- 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — executable Camunda + Spring Boot + Kafka sagas modeling real telecom provisioning: multi-operator number portability with SLA timeouts, bulk SIM provisioning with threshold-based batch compensation, and a reconciliation sweep for sagas that got stuck. Not another pizza-order demo.
 - 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Java/Spring engineering notes built on the telecom background above: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide (number portability, 5G core, provisioning) you won't find written up anywhere else.
 
 ## 🛠️ Stack
