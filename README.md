@@ -1,34 +1,59 @@
-# Hi, I'm Jihed 👋
+# Hi, I'm Jihed Ben Arfa 👋
 
-**Senior Software Engineer — Java/Spring microservices architecture, with a background most web developers don't have: 10+ years deep in telecom BSS/network provisioning.**
+<p align="left">
+  <b>Senior Microservices Architect & Software Engineer — Java 17+ / Spring Boot 3 / Spring Cloud / Keycloak / Camunda / AI Engineering</b>
+</p>
 
-I spent years inside the systems that actually run mobile networks — provisioning, number portability, 5G core migrations (Nokia → Huawei) — before moving into modern microservices architecture. That combination is the lens everything I build goes through: I don't just want code that works, I want systems that hold up under real operational conditions, because I've spent a decade debugging the ones that didn't.
-
-## 💼 Currently
-
-**Senior Software & Solutions Engineer** — architecting a multi-service Spring Boot / Angular 17 microservices platform for a government digitization program (trade/customs domain). Keycloak/OIDC security, BPMN workflows, Kafka eventing, full CI/CD.
-
-**Before that:** 5G core provisioning & BSS integration (Ooredoo Tunisia) — HLR/HSS/EPS/VoLTE/UDM/PCRF connectors, Nokia-to-Huawei core migration, number portability systems. If you've read the [telecom domain](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge/telecom) in my library, this is where that came from — not textbooks, production incidents.
-
-## 🚀 What I'm building
-
-- 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Spring Boot auto-configuration for Keycloak-secured resource servers. Fixes the role-mapping gap that breaks `hasRole()` on every fresh Spring + Keycloak setup, plus RFC 7807 error responses. On JitPack.
-- 🧩 **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** — custom Keycloak SPI providers: a conditional authenticator, a Kafka event listener, a legacy user storage federation. Each tested against a real Keycloak server via Testcontainers, not just unit-mocked.
-- 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — executable Camunda + Spring Boot + Kafka sagas modeling real telecom provisioning: multi-operator number portability with SLA timeouts, bulk SIM provisioning with threshold-based batch compensation, and a reconciliation sweep for sagas that got stuck. Not another pizza-order demo.
-- 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Java/Spring engineering notes built on the telecom background above: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide (number portability, 5G core, provisioning) you won't find written up anywhere else. Folded in a second AI-engineering and general-CS knowledge base (RAG, agents, evals, plus the usual languages/cloud/databases ground) this July instead of running it as a separate half-maintained repo.
-
-## 🛠️ Stack
-
-`Java` `Spring Boot` `Spring Cloud` `Angular` `TypeScript` `Keycloak` `Oracle PL/SQL` `PostgreSQL` `Kafka` `Docker` `Jenkins` `Linux`
-
-**Telecom depth:** BSS/OSS, provisioning, 5G core (UDM/PCRF), number portability, Nokia & Huawei network systems
-
-**Learning now:** Kubernetes · CI/CD security gates · LLM app engineering
-
-## 📫 Reach me
-
-- LinkedIn: [jihedbenarfa](https://www.linkedin.com/in/jihedbenarfa/)
-- Email: jihedbenarfa2026@gmail.com
+<p align="left">
+  <a href="https://github.com/jihedbfr-art/engineering-library"><img src="https://img.shields.io/badge/Architecture-Java%20%2F%20Spring%20Boot%203-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java Spring Architecture" /></a>
+  <a href="https://github.com/jihedbfr-art/ai-skills"><img src="https://img.shields.io/badge/AI%20Engineering-LLM%20%2F%20RAG%20%2F%20MCP%20%2F%20Spring%20AI-6f42c1?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engineering" /></a>
+  <a href="https://github.com/jihedbfr-art/bpmn-provisioning-patterns"><img src="https://img.shields.io/badge/Telecom-BSS%20%2F%205G%20Core%20%2F%20Kafka-00599C?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Telecom 5G BSS" /></a>
+</p>
 
 ---
-*"Build it, secure it, ship it."*
+
+## 🎯 About Me
+
+I am a Senior Software Engineer and Microservices Architect with 10+ years of deep enterprise experience spanning **Core Telecom BSS/5G provisioning platforms** (number portability, HLR/HSS/UDM/PCRF connectors, core network migrations) and **scalable distributed enterprise systems**.
+
+My engineering philosophy balances clean architecture, thread-safe concurrency, financial/data transactional isolation, and strict security-by-default design.
+
+---
+
+## 🚀 Featured Open Source Projects
+
+* 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by *JihedAiLabs*.
+* 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Production-grade Java 17 / Spring Boot 3 monorepo featuring 90+ multi-tiered reference implementations (`nano` to `macro`), 13 knowledge domains, ADRs, and post-mortem analysis.
+* 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — Executable Camunda + Spring Boot + Kafka Sagas modeling telecom provisioning, multi-operator number portability with SLA timeouts, and threshold-based batch compensation.
+* 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
+
+---
+
+## 🛠️ Core Tech Stack
+
+```text
+Backend:      Java 17+ | Spring Boot 3 | Spring Cloud | Spring Data JPA | Spring Security | Spring AI
+Frontend:     Angular 17+ | TypeScript | HTML5 / CSS3 / Vanilla JS
+Data & Infra: PostgreSQL | Oracle PL/SQL | Redis | H2 | Docker | Kafka
+Security:     Keycloak (OIDC / OAuth2 / SPI) | JWT | OWASP Security Guardrails
+Workflow:     Camunda BPMN 7/8 | Sagas | Event-Driven Architecture
+DevOps & CI:  GitHub Actions | Docker Compose | SonarQube | Maven
+```
+
+---
+
+## 🌐 Open Source Contributions
+
+Contributor to major open-source ecosystems:
+* **Spring Cloud Alibaba** (IPv6 network interface filtering & discovery fixes)
+* **Nacos** & **Trino** community contributions
+
+---
+
+## 📫 Connect
+
+- **LinkedIn**: [Jihed Ben Arfa](https://www.linkedin.com/in/jihedbenarfa/)
+- **GitHub**: [@jihedbfr-art](https://github.com/jihedbfr-art)
+
+---
+*“Build it, secure it, scale it.”*
