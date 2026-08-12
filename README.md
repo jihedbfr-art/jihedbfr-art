@@ -1,59 +1,48 @@
-# Hi, I'm Jihed Ben Arfa 👋
+<div align="center">
+  <img src="assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="180"/>
+</div>
 
-<p align="left">
-  <b>Senior Microservices Architect & Software Engineer — Java 17+ / Spring Boot 3 / Spring Cloud / Keycloak / Camunda / AI Engineering</b>
-</p>
+# Jihed Ben Arfa
 
-<p align="left">
-  <a href="https://github.com/jihedbfr-art/engineering-library"><img src="https://img.shields.io/badge/Architecture-Java%20%2F%20Spring%20Boot%203-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java Spring Architecture" /></a>
-  <a href="https://github.com/jihedbfr-art/ai-skills"><img src="https://img.shields.io/badge/AI%20Engineering-LLM%20%2F%20RAG%20%2F%20MCP%20%2F%20Spring%20AI-6f42c1?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engineering" /></a>
-  <a href="https://github.com/jihedbfr-art/bpmn-provisioning-patterns"><img src="https://img.shields.io/badge/Telecom-BSS%20%2F%205G%20Core%20%2F%20Kafka-00599C?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Telecom 5G BSS" /></a>
-</p>
+<div align="center">
 
----
+**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Production-grade engineering knowledge, executable labs and reusable Spring libraries for Java architects: distributed systems, Keycloak security, BPMN orchestration, telecom provisioning and enterprise AI engineering.
 
-## 🎯 About Me
+<a href="./README.fr.md">Version française</a>
 
-I am a Senior Software Engineer and Microservices Architect with 10+ years of deep enterprise experience spanning **Core Telecom BSS/5G provisioning platforms** (number portability, HLR/HSS/UDM/PCRF connectors, core network migrations) and **scalable distributed enterprise systems**.
-
-My engineering philosophy balances clean architecture, thread-safe concurrency, financial/data transactional isolation, and strict security-by-default design.
+</div>
 
 ---
 
-## 🚀 Featured Open Source Projects
+## Start here
+| If you are a(n)... | Start with... |
+| --- | --- |
+| Java/Spring Architect | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
+| Security / IAM Engineer | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) + [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) |
+| Enterprise AI Engineer | [ai-skills](https://github.com/jihedbfr-art/ai-skills) |
+| Telecom / BSS Engineer | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) |
+| Coding Agent | `llms.txt` / `skills-index.json` |
 
-* 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by *JihedAiLabs*.
-* 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Production-grade Java 17 / Spring Boot 3 monorepo featuring 90+ multi-tiered reference implementations (`nano` to `macro`), 13 knowledge domains, ADRs, and post-mortem analysis.
-* 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — Executable Camunda + Spring Boot + Kafka Sagas modeling telecom provisioning, multi-operator number portability with SLA timeouts, and threshold-based batch compensation.
-* 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
+## Flagship projects
+- 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Production-grade Java 17 / Spring Boot 3 monorepo featuring 90+ multi-tiered reference implementations (`nano` to `macro`), 13 knowledge domains, ADRs, and post-mortem analysis.
+- 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — Executable Camunda + Spring Boot + Kafka Sagas modeling telecom provisioning, multi-operator number portability with SLA timeouts, and threshold-based batch compensation.
+- 🛠️ **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** — Real-world Keycloak SPI extensions (Custom Authenticators, Event Listeners, Federation) built properly with full integration test coverage.
+- 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
+- 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by *JihedAiLabs*.
+- 🛡️ **[cyber-skills](https://github.com/jihedbfr-art/cyber-skills)** — A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
 
----
+## Learning paths
+1. **[From Spring Boot to Spring Cloud](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge)**: Master microservices architecture, from design to production.
+2. **[Keycloak Security Mastery](https://github.com/jihedbfr-art/keycloak-spi-workbench)**: Understand and extend Keycloak (SPI), integrate OAuth2/OIDC with Spring.
+3. **[Orchestration & Resilience (BPMN)](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)**: Manage distributed transactions, saga patterns, and system resilience.
+4. **[Applied Enterprise AI](https://github.com/jihedbfr-art/ai-skills)**: Integrate Generative AI into existing production workflows (RAG, Agents, Spring AI).
+5. **[Standardization and CI/CD](https://github.com/jihedbfr-art/github-engineering-template)**: Implement code governance, quality gates, and advanced CI/CD.
 
-## 🛠️ Core Tech Stack
+## Engineering principles
+Engineering is not just about writing code; it is primarily about managing complexity. I strongly believe in simplicity by design (clean architecture), secure-by-default paradigms, and validation through execution rather than theory. A distributed system must be designed to fail predictably, with clear boundaries and total observability. My approach prioritizes production reliability, relentless automation, and transparently sharing field-tested knowledge.
 
-```text
-Backend:      Java 17+ | Spring Boot 3 | Spring Cloud | Spring Data JPA | Spring Security | Spring AI
-Frontend:     Angular 17+ | TypeScript | HTML5 / CSS3 / Vanilla JS
-Data & Infra: PostgreSQL | Oracle PL/SQL | Redis | H2 | Docker | Kafka
-Security:     Keycloak (OIDC / OAuth2 / SPI) | JWT | OWASP Security Guardrails
-Workflow:     Camunda BPMN 7/8 | Sagas | Event-Driven Architecture
-DevOps & CI:  GitHub Actions | Docker Compose | SonarQube | Maven
-```
-
----
-
-## 🌐 Open Source Contributions
-
-Contributor to major open-source ecosystems:
-* **Spring Cloud Alibaba** (IPv6 network interface filtering & discovery fixes)
-* **Nacos** & **Trino** community contributions
-
----
-
-## 📫 Connect
-
+## Contributing / Contact
 - **LinkedIn**: [Jihed Ben Arfa](https://www.linkedin.com/in/jihedbenarfa/)
-- **GitHub**: [@jihedbfr-art](https://github.com/jihedbfr-art)
+- **GitHub Discussions/Issues**: Feel free to open *issues* or *discussions* on the respective repositories.
 
----
-*“Build it, secure it, scale it.”*
+*(Direct contact is exclusively via LinkedIn or GitHub messages. No support or discussion via email is accepted.)*
