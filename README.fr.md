@@ -36,7 +36,6 @@
 2. **[Sécurisation par Keycloak](https://github.com/jihedbfr-art/keycloak-spi-workbench)** : Comprendre et étendre Keycloak (SPI), intégrer OAuth2/OIDC avec Spring.
 3. **[Orchestration & Résilience (BPMN)](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** : Gérer les transactions distribuées, patterns de saga et la résilience système.
 4. **[IA d'entreprise Appliquée](https://github.com/jihedbfr-art/ai-skills)** : Intégrer l'IA générative dans des workflows de production existants (RAG, Agents, Spring AI).
-5. **[Standardisation et CI/CD](https://github.com/jihedbfr-art/github-engineering-template)** : Implémenter la gouvernance de code, les contrôles de qualité, et la CI/CD avancée.
 
 ## Engineering principles
 L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise de la complexité. Je crois fermement à la simplicité par le design (clean architecture), à la sécurité par défaut, et à la validation par l'exécution plutôt que par la théorie. Un système distribué doit être conçu pour échouer de manière prévisible, avec des limites claires et une observabilité totale. Mon approche privilégie la fiabilité de production, l'automatisation implacable, et le partage transparent de connaissances éprouvées sur le terrain.
