@@ -1,0 +1,40 @@
+name: Docs Linting
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+          
+      - name: Validate JSON Schema
+        run: |
+          jsonschema -i skills-index.json schemas/skills-index.schema.json
+          
+      - name: Run i18n linter
+        run: |
+          python scripts/lint_i18n.py --allow-legacy-switcher
+          
+      - name: Run MarkdownLint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: "**/*.md"
+          
+      - name: Run Lychee (Link Checker)
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress '**/*.md' 'llms*.txt' 'skills-index.json'
