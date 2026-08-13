@@ -1,0 +1,133 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
+  "version": "1.0.0",
+  "generated_at": "2026-08-13T00:00:00Z",
+  "owner": {
+    "name": "Jihed Ben Arfa",
+    "org": "JihedAiLabs",
+    "github": "jihedbfr-art"
+  },
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "repositories": [
+    {
+      "id": "engineering-library",
+      "url": "https://github.com/jihedbfr-art/engineering-library",
+      "kind": "knowledge-base",
+      "domains": [
+        "java",
+        "spring-boot",
+        "microservices",
+        "telecom-bss"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "bpmn-provisioning-patterns",
+      "url": "https://github.com/jihedbfr-art/bpmn-provisioning-patterns",
+      "kind": "knowledge-base",
+      "domains": [
+        "java",
+        "spring-boot",
+        "camunda",
+        "kafka",
+        "telecom-bss"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "keycloak-spi-workbench",
+      "url": "https://github.com/jihedbfr-art/keycloak-spi-workbench",
+      "kind": "workbench",
+      "domains": [
+        "java",
+        "keycloak",
+        "security"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "spring-keycloak-toolkit",
+      "url": "https://github.com/jihedbfr-art/spring-keycloak-toolkit",
+      "kind": "library",
+      "domains": [
+        "java",
+        "spring-boot",
+        "keycloak",
+        "security"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "ai-skills",
+      "url": "https://github.com/jihedbfr-art/ai-skills",
+      "kind": "knowledge-base",
+      "domains": [
+        "ai",
+        "spring-ai",
+        "mcp"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "cyber-skills",
+      "url": "https://github.com/jihedbfr-art/cyber-skills",
+      "kind": "knowledge-base",
+      "domains": [
+        "cybersecurity",
+        "security"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    }
+  ]
+}

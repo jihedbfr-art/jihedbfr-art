@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
+  "title": "Skills Index Schema",
+  "type": "object",
+  "required": ["$schema", "version", "generated_at", "owner", "languages", "repositories"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "owner": {
+      "type": "object",
+      "required": ["name", "org", "github"],
+      "properties": {
+        "name": { "type": "string" },
+        "org": { "type": "string" },
+        "github": { "type": "string" }
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "kind", "domains", "entry_points", "languages", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "kind": { "type": "string", "enum": ["knowledge-base", "library", "workbench", "template", "profile"] },
+          "domains": { "type": "array", "items": { "type": "string" } },
+          "entry_points": {
+            "type": "object",
+            "required": ["human", "agent"],
+            "properties": {
+              "human": { "type": "string" },
+              "agent": { "type": "string" }
+            }
+          },
+          "languages": { "type": "array", "items": { "type": "string" } },
+          "status": { "type": "string", "enum": ["active", "maintained", "archived"] }
+        }
+      }
+    }
+  }
+}
