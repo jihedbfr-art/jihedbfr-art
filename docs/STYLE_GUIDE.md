@@ -23,7 +23,7 @@ Content must read as if written by a senior engineer, not a language model.
 
 Every new directory created in this repository must contain the following structure:
 
-```
+```text
 <directory>/
 ├── README.md         # English — canonical version
 ├── README.fr.md      # French
