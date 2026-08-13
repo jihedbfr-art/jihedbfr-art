@@ -1,0 +1,11 @@
+name: Content Suggestion
+description: Propose a new topic or documentation change.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should be added or changed?
+    validations:
+      required: true
