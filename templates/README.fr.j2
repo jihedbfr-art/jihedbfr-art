@@ -1,4 +1,3 @@
-<!-- GENERATED FILE — edit templates/README.fr.j2 instead -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/brand/jihedailabs-logo-dark.svg">
@@ -24,26 +23,16 @@
 ---
 
 ## ⚡ En ce moment
-- **Objectif**: Création de patterns d'intégration IA de grade production pour les écosystèmes Java.
-- **Apprentissage**: Exploration des topologies RAG avancées et fine-tuning de modèles légers pour le code.
+- **Objectif**: {{ now.focus }}
+- **Apprentissage**: {{ now.learning }}
 
 ## 🚀 Projets phares
 
 | Dépôt | Étoiles | Langage | Dernier push |
 | --- | --- | --- | --- |
-
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | 1 ⭐ | Java | 2026-08-07 |
-
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | 1 ⭐ | Java | 2026-08-11 |
-
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | 1 ⭐ | Java | 2026-07-19 |
-
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | 1 ⭐ | Java | 2026-07-20 |
-
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | 0 ⭐ | None | 2026-08-07 |
-
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | 1 ⭐ | None | 2026-08-07 |
-
+{% for repo in repos %}
+| [{{ repo.name }}]({{ repo.url }}) | {{ repo.stars }} ⭐ | {{ repo.language }} | {{ repo.last_push }} |
+{% endfor %}
 
 ## 📚 Parcours d'apprentissage
 1. **[De Spring Boot à Spring Cloud](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge)** : Maîtriser l'architecture microservices, de la conception à la production.
@@ -62,5 +51,6 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
 
 ---
 <div align="center">
-  <small>Dernière mise à jour : 2026-08-14 14:24:28 UTC</small>
+  <small>Dernière mise à jour : {{ last_updated }}</small>
 </div>
+

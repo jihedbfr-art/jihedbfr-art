@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
+    <rect width="400" height="150" rx="6" fill="#0a1420" stroke="#1e2d3d" stroke-width="1"/>
+    
+    <text x="25" y="35" font-family="Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji" font-size="16" font-weight="bold" fill="#d4af37">
+        JihedAiLabs GitHub Stats
+    </text>
+    
+    <text x="25" y="65" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
+        Public Repositories: <tspan fill="#4fc0ff" font-weight="bold">9</tspan>
+    </text>
+    
+    <text x="25" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
+        Total Stars: <tspan fill="#4fc0ff" font-weight="bold">10</tspan>
+    </text>
+    
+    <text x="25" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
+        Top Languages: <tspan fill="#4fc0ff" font-weight="bold">Java · Python</tspan>
+    </text>
+</svg>
