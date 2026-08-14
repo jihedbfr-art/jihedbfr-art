@@ -1,0 +1,16 @@
+# Index de l'Écosystème JihedAiLabs
+
+Voici le catalogue généré automatiquement de tous les dépôts publics de l'écosystème JihedAiLabs.
+Pour la version JSON lisible par machine, consultez [skills-index.json](../skills-index.json).
+Pour la version contexte LLM, consultez [llms.txt](../llms.txt).
+
+## Dépôts
+
+| Dépôt | Type | Description |
+| --- | --- | --- |
+{% for repo in repos %}
+| **[{{ repo.name }}]({{ repo.url }})** | `{{ repo.type }}` | {{ repo.description }} |
+{% endfor %}
+
+---
+*Généré par découverte automatisée.*

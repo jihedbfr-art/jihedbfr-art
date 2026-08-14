@@ -1,133 +1,173 @@
-{
-  "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
-  "version": "1.0.0",
-  "generated_at": "2026-08-13T00:00:00Z",
-  "owner": {
-    "name": "Jihed Ben Arfa",
-    "org": "JihedAiLabs",
-    "github": "jihedbfr-art"
+[
+  {
+    "name": "ai-skills",
+    "description": "Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI",
+    "type": "library",
+    "topics": [
+      "agents",
+      "ai-engineering",
+      "guardrails",
+      "llm",
+      "mcp",
+      "prompt-engineering",
+      "rag",
+      "spring-ai",
+      "vector-database"
+    ],
+    "entry_points": {
+      "human": "README.md"
+    },
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/ai-skills"
   },
-  "languages": [
-    "en",
-    "fr"
-  ],
-  "repositories": [
-    {
-      "id": "engineering-library",
-      "url": "https://github.com/jihedbfr-art/engineering-library",
-      "kind": "knowledge-base",
-      "domains": [
-        "java",
-        "spring-boot",
-        "microservices",
-        "telecom-bss"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
+  {
+    "name": "bpmn-provisioning-patterns",
+    "description": "Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts.",
+    "type": "library",
+    "topics": [
+      "bpmn",
+      "camunda",
+      "kafka",
+      "spring-boot",
+      "telecom",
+      "saga-pattern"
+    ],
+    "entry_points": {
+      "human": "README.md"
     },
-    {
-      "id": "bpmn-provisioning-patterns",
-      "url": "https://github.com/jihedbfr-art/bpmn-provisioning-patterns",
-      "kind": "knowledge-base",
-      "domains": [
-        "java",
-        "spring-boot",
-        "camunda",
-        "kafka",
-        "telecom-bss"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/bpmn-provisioning-patterns"
+  },
+  {
+    "name": "cyber-skills",
+    "description": "A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.",
+    "type": "library",
+    "topics": [
+      "appsec",
+      "awesome",
+      "blue-team",
+      "cloud-security",
+      "cybersecurity",
+      "infosec",
+      "pentesting",
+      "red-team",
+      "security",
+      "security-skills"
+    ],
+    "entry_points": {
+      "human": "README.md"
     },
-    {
-      "id": "keycloak-spi-workbench",
-      "url": "https://github.com/jihedbfr-art/keycloak-spi-workbench",
-      "kind": "workbench",
-      "domains": [
-        "java",
-        "keycloak",
-        "security"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/cyber-skills"
+  },
+  {
+    "name": "dev-library",
+    "description": "A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free.",
+    "type": "library",
+    "topics": [
+      "ai",
+      "cheatsheets",
+      "cybersecurity",
+      "devsecops",
+      "knowledge-base",
+      "learning",
+      "algorithms",
+      "awesome",
+      "cloud",
+      "computer-science",
+      "encyclopedia",
+      "networking",
+      "programming",
+      "software-engineering",
+      "system-design"
+    ],
+    "entry_points": {
+      "human": "README.md"
     },
-    {
-      "id": "spring-keycloak-toolkit",
-      "url": "https://github.com/jihedbfr-art/spring-keycloak-toolkit",
-      "kind": "library",
-      "domains": [
-        "java",
-        "spring-boot",
-        "keycloak",
-        "security"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/dev-library"
+  },
+  {
+    "name": "engineering-library",
+    "description": "Java/Spring engineering notes from 10+ years in telecom BSS production: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide you won't find in another repo.",
+    "type": "library",
+    "topics": [
+      "ai-engineering",
+      "angular",
+      "architecture",
+      "engineering-library",
+      "java",
+      "keycloak",
+      "microservices",
+      "spring-boot",
+      "software-engineering",
+      "telecom"
+    ],
+    "entry_points": {
+      "human": "README.md"
     },
-    {
-      "id": "ai-skills",
-      "url": "https://github.com/jihedbfr-art/ai-skills",
-      "kind": "knowledge-base",
-      "domains": [
-        "ai",
-        "spring-ai",
-        "mcp"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/engineering-library"
+  },
+  {
+    "name": "jihedbfr-art",
+    "description": "GitHub profile",
+    "type": "library",
+    "topics": [],
+    "entry_points": {
+      "human": "README.md"
     },
-    {
-      "id": "cyber-skills",
-      "url": "https://github.com/jihedbfr-art/cyber-skills",
-      "kind": "knowledge-base",
-      "domains": [
-        "cybersecurity",
-        "security"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
-    }
-  ]
-}
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/jihedbfr-art"
+  },
+  {
+    "name": "keycloak",
+    "description": "Open Source Identity and Access Management For Modern Applications and Services",
+    "type": "library",
+    "topics": [],
+    "entry_points": {
+      "human": "README.md"
+    },
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/keycloak"
+  },
+  {
+    "name": "keycloak-spi-workbench",
+    "description": "Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples.",
+    "type": "library",
+    "topics": [
+      "authentication",
+      "keycloak",
+      "keycloak-spi",
+      "mfa",
+      "spring-boot",
+      "testcontainers",
+      "apache-kafka",
+      "postgresql",
+      "user-federation"
+    ],
+    "entry_points": {
+      "human": "README.md"
+    },
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/keycloak-spi-workbench"
+  },
+  {
+    "name": "spring-keycloak-toolkit",
+    "description": "Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses",
+    "type": "library",
+    "topics": [
+      "jwt",
+      "keycloak",
+      "oauth2",
+      "rfc7807",
+      "spring-boot",
+      "spring-security"
+    ],
+    "entry_points": {
+      "human": "README.md"
+    },
+    "metadata": "inferred",
+    "url": "https://github.com/jihedbfr-art/spring-keycloak-toolkit"
+  }
+]

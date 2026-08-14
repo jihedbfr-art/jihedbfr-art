@@ -1,45 +1,79 @@
-# Jihed Ben Arfa - Full Index
+# JihedAiLabs Ecosystem (Full Context)
 
-> Production-grade engineering knowledge, executable labs and reusable Spring libraries for Java architects: distributed systems, Keycloak security, BPMN orchestration, telecom provisioning and enterprise AI engineering.
+> Detailed index of JihedAiLabs public repositories.
 
-## Repositories
 
-### engineering-library
-- **URL**: https://github.com/jihedbfr-art/engineering-library
-- **Description**: Production-grade Java 17 / Spring Boot 3 monorepo featuring 90+ multi-tiered reference implementations (nano to macro), 13 knowledge domains, ADRs, and post-mortem analysis.
-- **Tech Stack**: Java 17+, Spring Boot 3, Spring Cloud
-- **Index**: https://raw.githubusercontent.com/jihedbfr-art/engineering-library/main/README.md
+## [ai-skills](https://github.com/jihedbfr-art/ai-skills)
+- **Description**: Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI
+- **Type**: library
+- **Topics**: agents, ai-engineering, guardrails, llm, mcp, prompt-engineering, rag, spring-ai, vector-database
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/ai-skills/blob/main/README.md)
 
-### bpmn-provisioning-patterns
-- **URL**: https://github.com/jihedbfr-art/bpmn-provisioning-patterns
-- **Description**: Executable Camunda + Spring Boot + Kafka Sagas modeling telecom provisioning, multi-operator number portability with SLA timeouts, and threshold-based batch compensation.
-- **Tech Stack**: Camunda BPMN, Spring Boot, Apache Kafka, Testcontainers, OpenTelemetry
-- **Index**: https://raw.githubusercontent.com/jihedbfr-art/bpmn-provisioning-patterns/main/README.md
 
-### keycloak-spi-workbench
-- **URL**: https://github.com/jihedbfr-art/keycloak-spi-workbench
-- **Description**: Real-world Keycloak SPI extensions (Custom Authenticators, Event Listeners, Federation) built properly with full integration test coverage.
-- **Tech Stack**: Java, Keycloak SPI
-- **Index**: https://raw.githubusercontent.com/jihedbfr-art/keycloak-spi-workbench/main/README.md
+## [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)
+- **Description**: Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts.
+- **Type**: library
+- **Topics**: bpmn, camunda, kafka, spring-boot, telecom, saga-pattern
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/bpmn-provisioning-patterns/blob/main/README.md)
 
-### spring-keycloak-toolkit
-- **URL**: https://github.com/jihedbfr-art/spring-keycloak-toolkit
-- **Description**: Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
-- **Tech Stack**: Spring Boot, Keycloak, OAuth2/OIDC
-- **Index**: https://raw.githubusercontent.com/jihedbfr-art/spring-keycloak-toolkit/main/README.md
 
-### ai-skills
-- **URL**: https://github.com/jihedbfr-art/ai-skills
-- **Description**: Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by JihedAiLabs.
-- **Tech Stack**: Spring AI, LLMs, MCP
-- **Index**: https://raw.githubusercontent.com/jihedbfr-art/ai-skills/main/README.md
-
-### cyber-skills
-- **URL**: https://github.com/jihedbfr-art/cyber-skills
+## [cyber-skills](https://github.com/jihedbfr-art/cyber-skills)
 - **Description**: A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
-- **Tech Stack**: Cybersecurity, Agent Skills
-- **Index**: https://raw.githubusercontent.com/jihedbfr-art/cyber-skills/main/README.md
+- **Type**: library
+- **Topics**: appsec, awesome, blue-team, cloud-security, cybersecurity, infosec, pentesting, red-team, security, security-skills
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/cyber-skills/blob/main/README.md)
 
-## License
 
-CC-BY-4.0 for documentary content. Code in the respective repositories is typically MIT or Apache 2.0 (see individual repository LICENSE files).
+## [dev-library](https://github.com/jihedbfr-art/dev-library)
+- **Description**: A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free.
+- **Type**: library
+- **Topics**: ai, cheatsheets, cybersecurity, devsecops, knowledge-base, learning, algorithms, awesome, cloud, computer-science, encyclopedia, networking, programming, software-engineering, system-design
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/dev-library/blob/main/README.md)
+
+
+## [engineering-library](https://github.com/jihedbfr-art/engineering-library)
+- **Description**: Java/Spring engineering notes from 10+ years in telecom BSS production: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide you won't find in another repo.
+- **Type**: library
+- **Topics**: ai-engineering, angular, architecture, engineering-library, java, keycloak, microservices, spring-boot, software-engineering, telecom
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/engineering-library/blob/main/README.md)
+
+
+## [jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art)
+- **Description**: GitHub profile
+- **Type**: library
+- **Topics**: 
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedbfr-art/blob/main/README.md)
+
+
+## [keycloak](https://github.com/jihedbfr-art/keycloak)
+- **Description**: Open Source Identity and Access Management For Modern Applications and Services
+- **Type**: library
+- **Topics**: 
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/keycloak/blob/main/README.md)
+
+
+## [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)
+- **Description**: Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples.
+- **Type**: library
+- **Topics**: authentication, keycloak, keycloak-spi, mfa, spring-boot, testcontainers, apache-kafka, postgresql, user-federation
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/keycloak-spi-workbench/blob/main/README.md)
+
+
+## [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)
+- **Description**: Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses
+- **Type**: library
+- **Topics**: jwt, keycloak, oauth2, rfc7807, spring-boot, spring-security
+- **Agent Entry Point**: None
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
+
+
+
+> For a full machine-readable index, see [skills-index.json](skills-index.json).
