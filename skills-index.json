@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-08-13T00:00:00Z",
+  "generated_at": "2026-08-14T21:40:27Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -13,18 +13,23 @@
   ],
   "repositories": [
     {
-      "id": "engineering-library",
-      "url": "https://github.com/jihedbfr-art/engineering-library",
+      "id": "ai-skills",
+      "url": "https://github.com/jihedbfr-art/ai-skills",
       "kind": "knowledge-base",
       "domains": [
-        "java",
-        "spring-boot",
-        "microservices",
-        "telecom-bss"
+        "agents",
+        "ai-engineering",
+        "guardrails",
+        "llm",
+        "mcp",
+        "prompt-engineering",
+        "rag",
+        "spring-ai",
+        "vector-database"
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "llms.txt"
+        "agent": "SKILL.md"
       },
       "languages": [
         "en",
@@ -37,69 +42,12 @@
       "url": "https://github.com/jihedbfr-art/bpmn-provisioning-patterns",
       "kind": "knowledge-base",
       "domains": [
-        "java",
-        "spring-boot",
+        "bpmn",
         "camunda",
         "kafka",
-        "telecom-bss"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
-    },
-    {
-      "id": "keycloak-spi-workbench",
-      "url": "https://github.com/jihedbfr-art/keycloak-spi-workbench",
-      "kind": "workbench",
-      "domains": [
-        "java",
-        "keycloak",
-        "security"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
-    },
-    {
-      "id": "spring-keycloak-toolkit",
-      "url": "https://github.com/jihedbfr-art/spring-keycloak-toolkit",
-      "kind": "library",
-      "domains": [
-        "java",
         "spring-boot",
-        "keycloak",
-        "security"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "llms.txt"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
-    },
-    {
-      "id": "ai-skills",
-      "url": "https://github.com/jihedbfr-art/ai-skills",
-      "kind": "knowledge-base",
-      "domains": [
-        "ai",
-        "spring-ai",
-        "mcp"
+        "telecom",
+        "saga-pattern"
       ],
       "entry_points": {
         "human": "README.md",
@@ -116,8 +64,158 @@
       "url": "https://github.com/jihedbfr-art/cyber-skills",
       "kind": "knowledge-base",
       "domains": [
+        "appsec",
+        "awesome",
+        "blue-team",
+        "cloud-security",
         "cybersecurity",
-        "security"
+        "infosec",
+        "pentesting",
+        "red-team",
+        "security",
+        "security-skills"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "SKILL.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dev-library",
+      "url": "https://github.com/jihedbfr-art/dev-library",
+      "kind": "knowledge-base",
+      "domains": [
+        "ai",
+        "cheatsheets",
+        "cybersecurity",
+        "devsecops",
+        "knowledge-base",
+        "learning",
+        "algorithms",
+        "awesome",
+        "cloud",
+        "computer-science",
+        "encyclopedia",
+        "networking",
+        "programming",
+        "software-engineering",
+        "system-design"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "engineering-library",
+      "url": "https://github.com/jihedbfr-art/engineering-library",
+      "kind": "knowledge-base",
+      "domains": [
+        "ai-engineering",
+        "angular",
+        "architecture",
+        "engineering-library",
+        "java",
+        "keycloak",
+        "microservices",
+        "spring-boot",
+        "software-engineering",
+        "telecom"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "jihedbfr-art",
+      "url": "https://github.com/jihedbfr-art/jihedbfr-art",
+      "kind": "profile",
+      "domains": [
+        "github-profile",
+        "automation",
+        "jinja2",
+        "ecosystem-index",
+        "agents"
+      ],
+      "entry_points": {
+        "agent": "agents.md",
+        "human": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "keycloak",
+      "url": "https://github.com/jihedbfr-art/keycloak",
+      "kind": "library",
+      "domains": [
+        "software-engineering"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "keycloak-spi-workbench",
+      "url": "https://github.com/jihedbfr-art/keycloak-spi-workbench",
+      "kind": "workbench",
+      "domains": [
+        "authentication",
+        "keycloak",
+        "keycloak-spi",
+        "mfa",
+        "spring-boot",
+        "testcontainers",
+        "apache-kafka",
+        "postgresql",
+        "user-federation"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "llms.txt"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "spring-keycloak-toolkit",
+      "url": "https://github.com/jihedbfr-art/spring-keycloak-toolkit",
+      "kind": "library",
+      "domains": [
+        "jwt",
+        "keycloak",
+        "oauth2",
+        "rfc7807",
+        "spring-boot",
+        "spring-security"
       ],
       "entry_points": {
         "human": "README.md",

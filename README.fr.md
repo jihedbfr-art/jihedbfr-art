@@ -28,6 +28,7 @@
 - **Apprentissage**: TODO(jihed)
 
 ## Point de départ
+
 | Si vous êtes un(e)... | Commencez par... |
 | --- | --- |
 | Architecte Java/Spring | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
@@ -49,17 +50,17 @@
 | Dépôt | Langage | Dernier push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-08-07 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | - | - |
 
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-08-11 |
+| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | - | - |
 
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-07-19 |
+| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | - | - |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-07-20 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | - | - |
 
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | None | 2026-08-07 |
+| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | - | - |
 
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | None | 2026-08-07 |
+| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | - | - |
 
 
 ## Parcours d'apprentissage
@@ -80,5 +81,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
 
 ---
 <div align="center">
-  <small>Dernière mise à jour : 2026-08-14 15:37:56 UTC</small>
+  <small>Dernière mise à jour : 2026-08-14 22:01:23 UTC</small>
 </div>

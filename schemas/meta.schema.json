@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JihedAiLabs Repository Metadata",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The repository name as it appears on GitHub."
+    },
+    "description": {
+      "type": "string",
+      "description": "A short, agent-friendly description of the repository's purpose."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["library", "skill", "knowledge-base", "application", "monorepo", "profile"],
+      "description": "The primary role of the repository."
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of GitHub topics associated with the repository."
+    },
+    "entry_points": {
+      "type": "object",
+      "properties": {
+        "agent": {
+          "type": "string",
+          "description": "Path to the primary markdown file for agents (e.g. llms.txt, SKILL.md, agents.md)."
+        },
+        "human": {
+          "type": "string",
+          "description": "Path to the primary markdown file for humans (e.g. README.md)."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["name", "description", "type", "topics"],
+  "additionalProperties": false
+}

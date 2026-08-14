@@ -1,0 +1,12 @@
+name: jihedbfr-art
+description: Central GitHub Profile and Ecosystem Index. Contains the machine-readable catalog of all JihedAiLabs repositories, automated profile generation, and agent governance rules.
+type: profile
+topics:
+  - github-profile
+  - automation
+  - jinja2
+  - ecosystem-index
+  - agents
+entry_points:
+  agent: agents.md
+  human: README.md

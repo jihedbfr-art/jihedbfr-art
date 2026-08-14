@@ -1,20 +1,25 @@
-# Jihed Ben Arfa
+# JihedAiLabs Ecosystem
 
-> Production-grade engineering knowledge, executable labs and reusable Spring libraries for Java architects: distributed systems, Keycloak security, BPMN orchestration, telecom provisioning and enterprise AI engineering.
+> Central index of JihedAiLabs public repositories.
 
-## Repositories
 
-- [engineering-library](https://github.com/jihedbfr-art/engineering-library): Production-grade Java 17 / Spring Boot 3 monorepo featuring 90+ multi-tiered reference implementations (nano to macro), 13 knowledge domains, ADRs, and post-mortem analysis.
-- [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns): Executable Camunda + Spring Boot + Kafka Sagas modeling telecom provisioning, multi-operator number portability with SLA timeouts, and threshold-based batch compensation.
-- [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench): Real-world Keycloak SPI extensions (Custom Authenticators, Event Listeners, Federation) built properly with full integration test coverage.
-- [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit): Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
-- [ai-skills](https://github.com/jihedbfr-art/ai-skills): Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by JihedAiLabs.
+- [ai-skills](https://github.com/jihedbfr-art/ai-skills): Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI
+
+- [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns): Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts.
+
 - [cyber-skills](https://github.com/jihedbfr-art/cyber-skills): A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
 
-## License
+- [dev-library](https://github.com/jihedbfr-art/dev-library): A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free.
 
-CC-BY-4.0 for documentary content. Code in the respective repositories is typically MIT or Apache 2.0 (see individual repository LICENSE files).
+- [engineering-library](https://github.com/jihedbfr-art/engineering-library): Java/Spring engineering notes from 10+ years in telecom BSS production: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide you won't find in another repo.
 
-## Languages
+- [jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art): Central GitHub Profile and Ecosystem Index. Contains the machine-readable catalog of all JihedAiLabs repositories, automated profile generation, and agent governance rules.
 
-Available in English (EN) and French (FR).
+- [keycloak](https://github.com/jihedbfr-art/keycloak): Open Source Identity and Access Management For Modern Applications and Services
+
+- [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench): Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples.
+
+- [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit): Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses
+
+
+> For a full machine-readable index, see [skills-index.json](skills-index.json).

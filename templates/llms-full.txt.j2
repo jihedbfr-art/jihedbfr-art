@@ -1,0 +1,15 @@
+# JihedAiLabs Ecosystem (Full Context)
+
+> Detailed index of JihedAiLabs public repositories.
+
+{% for repo in repos %}
+## [{{ repo.name }}]({{ repo.url }})
+- **Description**: {{ repo.description }}
+- **Type**: {{ repo.type }}
+- **Topics**: {{ repo.topics | join(', ') }}
+- **Agent Entry Point**: {% if repo.entry_points and repo.entry_points.agent %}[{{ repo.entry_points.agent }}]({{ repo.url }}/blob/main/{{ repo.entry_points.agent }}){% else %}None{% endif %}
+- **Human Entry Point**: {% if repo.entry_points and repo.entry_points.human %}[{{ repo.entry_points.human }}]({{ repo.url }}/blob/main/{{ repo.entry_points.human }}){% else %}None{% endif %}
+
+{% endfor %}
+
+> For a full machine-readable index, see [skills-index.json](skills-index.json).

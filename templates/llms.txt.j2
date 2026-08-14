@@ -1,0 +1,9 @@
+# JihedAiLabs Ecosystem
+
+> Central index of JihedAiLabs public repositories.
+
+{% for repo in repos %}
+- [{{ repo.name }}]({{ repo.url }}): {{ repo.description }}
+{% endfor %}
+
+> For a full machine-readable index, see [skills-index.json](skills-index.json).
