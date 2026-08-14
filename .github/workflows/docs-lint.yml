@@ -25,9 +25,8 @@ jobs:
         run: |
           jsonschema -i skills-index.json schemas/skills-index.schema.json
           
-      - name: Run i18n linter
-        run: |
-          python scripts/lint_i18n.py --allow-legacy-switcher
+      - name: Lint i18n
+        run: python scripts/lint_i18n.py
           
       - name: Run MarkdownLint
         uses: DavidAnson/markdownlint-cli2-action@v16
