@@ -10,10 +10,10 @@
     </text>
     
     <text x="25" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
-        Total Stars: <tspan fill="#4fc0ff" font-weight="bold">10</tspan>
+        Top Languages: <tspan fill="#4fc0ff" font-weight="bold">Java • Python</tspan>
     </text>
-    
+
     <text x="25" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
-        Top Languages: <tspan fill="#4fc0ff" font-weight="bold">Java · Python</tspan>
+        Last Activity: <tspan fill="#4fc0ff" font-weight="bold">2026-08-14</tspan>
     </text>
 </svg>

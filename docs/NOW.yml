@@ -1,14 +1,14 @@
 en:
-  focus: "Building production-grade AI integration patterns for Java ecosystems."
-  learning: "Exploring advanced RAG topologies and fine-tuning lightweight models for coding tasks."
+  focus: "TODO(jihed)"
+  learning: "TODO(jihed)"
   projects:
     - name: "Tunisie TradeNet (TTN)"
       description: "Senior Architecture Microservices (Java/Angular)"
     - name: "engineering-library"
       description: "Iterating on standard architectures and ADRs."
 fr:
-  focus: "Création de patterns d'intégration IA de grade production pour les écosystèmes Java."
-  learning: "Exploration des topologies RAG avancées et fine-tuning de modèles légers pour le code."
+  focus: "TODO(jihed)"
+  learning: "TODO(jihed)"
   projects:
     - name: "Tunisie TradeNet (TTN)"
       description: "Architecture Microservices Senior (Java/Angular)"

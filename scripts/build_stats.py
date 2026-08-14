@@ -58,10 +58,10 @@ def generate_svg(stats):
     gold = "#d4af37"
     
     # We never render a 0 if data is missing, but with length > 0 it should be fine.
-    stars = str(stats['stars']) if stats['stars'] > 0 else "N/A"
     repos = str(stats['repos']) if stats['repos'] > 0 else "N/A"
+    last_push = stats['last_push'] if stats['last_push'] else "N/A"
     
-    lang_str = " · ".join([f"{l[0]}" for l in stats['top_languages']])
+    lang_str = " • ".join([f"{l[0]}" for l in stats['top_languages']])
     
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
     <rect width="400" height="150" rx="6" fill="{bg}" stroke="#1e2d3d" stroke-width="1"/>
@@ -75,11 +75,11 @@ def generate_svg(stats):
     </text>
     
     <text x="25" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="{text}">
-        Total Stars: <tspan fill="{accent}" font-weight="bold">{stars}</tspan>
-    </text>
-    
-    <text x="25" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="{text}">
         Top Languages: <tspan fill="{accent}" font-weight="bold">{lang_str}</tspan>
+    </text>
+
+    <text x="25" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="{text}">
+        Last Activity: <tspan fill="{accent}" font-weight="bold">{last_push}</tspan>
     </text>
 </svg>"""
     return svg

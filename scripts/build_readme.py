@@ -94,9 +94,8 @@ def render_template(template_name, context, output_file):
             old_content = f.read()
             
         # Strip out the date line from both for comparison
-        # Assuming the template has something like `Last updated: DATE_PLACEHOLDER`
-        old_content_stripped = re.sub(r'Last updated: .*', 'Last updated: DATE_PLACEHOLDER', old_content)
-        new_content_stripped = re.sub(r'Last updated: .*', 'Last updated: DATE_PLACEHOLDER', new_content)
+        old_content_stripped = re.sub(r'(Last updated:|Dernière mise à jour :) .*', r'\1 DATE_PLACEHOLDER', old_content)
+        new_content_stripped = re.sub(r'(Last updated:|Dernière mise à jour :) .*', r'\1 DATE_PLACEHOLDER', new_content)
         
         if old_content_stripped == new_content_stripped:
             has_diff = False

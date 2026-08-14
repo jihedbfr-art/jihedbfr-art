@@ -23,38 +23,56 @@
 
 ---
 
-## ⚡ En ce moment
-- **Objectif**: Création de patterns d'intégration IA de grade production pour les écosystèmes Java.
-- **Apprentissage**: Exploration des topologies RAG avancées et fine-tuning de modèles légers pour le code.
+## En ce moment
+- **Objectif**: TODO(jihed)
+- **Apprentissage**: TODO(jihed)
 
-## 🚀 Projets phares
+## Point de départ
+| Si vous êtes un(e)... | Commencez par... |
+| --- | --- |
+| Architecte Java/Spring | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
+| Ingénieur Sécurité / IAM | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) + [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) |
+| Ingénieur IA d'entreprise | [ai-skills](https://github.com/jihedbfr-art/ai-skills) |
+| Ingénieur Télécom / BSS | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) |
+| Agent de codage | `llms.txt` / `skills-index.json` |
 
-| Dépôt | Étoiles | Langage | Dernier push |
-| --- | --- | --- | --- |
+## Projets phares
+- 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Monorepo Java 17 / Spring Boot 3 de qualité production avec plus de 90 implémentations de référence (`nano` à `macro`), 13 domaines de connaissances, ADRs, et analyses post-mortem.
+- 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — Modélisation de provisioning télécom avec Camunda + Spring Boot + Kafka Sagas, portabilité des numéros multi-opérateurs avec SLA, et compensation par lots basée sur des seuils.
+- 🛠️ **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** — Extensions Keycloak SPI concrètes (Authentificateurs personnalisés, Écouteurs d'événements, Fédération) construites correctement avec une couverture complète de tests d'intégration.
+- 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Bibliothèque d'auto-configuration Spring Boot d'entreprise pour les serveurs de ressources Keycloak OAuth2/OIDC, résolvant le mapping de rôles et les détails de problèmes RFC 7807.
+- 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Base de connaissances pragmatique en ingénierie IA (Économie des LLM, RAG Hybride, Orchestration Multi-Agents, Protocole MCP, Spring AI & Guardrails) propulsée par *JihedAiLabs*.
+- 🛡️ **[cyber-skills](https://github.com/jihedbfr-art/cyber-skills)** — Une bibliothèque de compétences de sécurité sur 26 domaines — chacune étant un SKILL.md prêt pour les agents qui sert également d'aide-mémoire pour les humains. Bilingue EN/FR.
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | 1 ⭐ | Java | 2026-08-07 |
+### Activité
 
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | 1 ⭐ | Java | 2026-08-11 |
+| Dépôt | Langage | Dernier push |
+| --- | --- | --- |
 
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | 1 ⭐ | Java | 2026-07-19 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-08-07 |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | 1 ⭐ | Java | 2026-07-20 |
+| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-08-11 |
 
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | 0 ⭐ | None | 2026-08-07 |
+| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-07-19 |
 
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | 1 ⭐ | None | 2026-08-07 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-07-20 |
+
+| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | None | 2026-08-07 |
+
+| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | None | 2026-08-07 |
 
 
-## 📚 Parcours d'apprentissage
+## Parcours d'apprentissage
 1. **[De Spring Boot à Spring Cloud](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge)** : Maîtriser l'architecture microservices, de la conception à la production.
 2. **[Sécurisation par Keycloak](https://github.com/jihedbfr-art/keycloak-spi-workbench)** : Comprendre et étendre Keycloak (SPI), intégrer OAuth2/OIDC avec Spring.
 3. **[Orchestration & Résilience (BPMN)](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** : Gérer les transactions distribuées, patterns de saga et la résilience système.
 4. **[IA d'entreprise Appliquée](https://github.com/jihedbfr-art/ai-skills)** : Intégrer l'IA générative dans des workflows de production existants (RAG, Agents, Spring AI).
+5. **[Standardisation et CI/CD](https://github.com/jihedbfr-art/github-engineering-template)** : Implémenter la gouvernance du code, les portes de qualité, et la CI/CD avancée.
 
-## 🧠 Principes d'ingénierie
+## Principes d'ingénierie
 L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise de la complexité. Je crois fermement à la simplicité par le design (clean architecture), à la sécurité par défaut, et à la validation par l'exécution plutôt que par la théorie. Un système distribué doit être conçu pour échouer de manière prévisible, avec des limites claires et une observabilité totale. Mon approche privilégie la fiabilité de production, l'automatisation implacable, et le partage transparent de connaissances éprouvées sur le terrain.
 
-## 🤝 Contribution / Contact
+## Contribution / Contact
 - **LinkedIn** : [Jihed Ben Arfa](https://www.linkedin.com/in/jihedbenarfa/)
 - **GitHub Discussions/Issues** : N'hésitez pas à ouvrir des *issues* ou des *discussions* sur les dépôts respectifs.
 
@@ -62,5 +80,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
 
 ---
 <div align="center">
-  <small>Dernière mise à jour : 2026-08-14 14:24:28 UTC</small>
+  <small>Dernière mise à jour : 2026-08-14 15:37:56 UTC</small>
 </div>

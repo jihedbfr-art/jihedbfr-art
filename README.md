@@ -23,38 +23,56 @@
 
 ---
 
-## ⚡ Now
-- **Focus**: Building production-grade AI integration patterns for Java ecosystems.
-- **Learning**: Exploring advanced RAG topologies and fine-tuning lightweight models for coding tasks.
+## Now
+- **Focus**: TODO(jihed)
+- **Learning**: TODO(jihed)
 
-## 🚀 Flagship projects
+## Start here
+| If you are a(n)... | Start with... |
+| --- | --- |
+| Java/Spring Architect | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
+| Security / IAM Engineer | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) + [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) |
+| Enterprise AI Engineer | [ai-skills](https://github.com/jihedbfr-art/ai-skills) |
+| Telecom / BSS Engineer | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) |
+| Coding Agent | `llms.txt` / `skills-index.json` |
 
-| Repository | Stars | Language | Last Push |
-| --- | --- | --- | --- |
+## Flagship projects
+- 📚 **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** — Production-grade Java 17 / Spring Boot 3 monorepo featuring 90+ multi-tiered reference implementations (`nano` to `macro`), 13 knowledge domains, ADRs, and post-mortem analysis.
+- 🔀 **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** — Executable Camunda + Spring Boot + Kafka Sagas modeling telecom provisioning, multi-operator number portability with SLA timeouts, and threshold-based batch compensation.
+- 🛠️ **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** — Real-world Keycloak SPI extensions (Custom Authenticators, Event Listeners, Federation) built properly with full integration test coverage.
+- 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
+- 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by *JihedAiLabs*.
+- 🛡️ **[cyber-skills](https://github.com/jihedbfr-art/cyber-skills)** — A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | 1 ⭐ | Java | 2026-08-07 |
+### Activity
 
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | 1 ⭐ | Java | 2026-08-11 |
+| Repository | Language | Last Push |
+| --- | --- | --- |
 
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | 1 ⭐ | Java | 2026-07-19 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-08-07 |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | 1 ⭐ | Java | 2026-07-20 |
+| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-08-11 |
 
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | 0 ⭐ | None | 2026-08-07 |
+| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-07-19 |
 
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | 1 ⭐ | None | 2026-08-07 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-07-20 |
+
+| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | None | 2026-08-07 |
+
+| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | None | 2026-08-07 |
 
 
-## 📚 Learning paths
+## Learning paths
 1. **[From Spring Boot to Spring Cloud](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge)**: Master microservices architecture, from design to production.
 2. **[Keycloak Security Mastery](https://github.com/jihedbfr-art/keycloak-spi-workbench)**: Understand and extend Keycloak (SPI), integrate OAuth2/OIDC with Spring.
 3. **[Orchestration & Resilience (BPMN)](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)**: Manage distributed transactions, saga patterns, and system resilience.
 4. **[Applied Enterprise AI](https://github.com/jihedbfr-art/ai-skills)**: Integrate Generative AI into existing production workflows (RAG, Agents, Spring AI).
+5. **[Standardization and CI/CD](https://github.com/jihedbfr-art/github-engineering-template)**: Implement code governance, quality gates, and advanced CI/CD.
 
-## 🧠 Engineering principles
+## Engineering principles
 Engineering is not just about writing code; it is primarily about managing complexity. I strongly believe in simplicity by design (clean architecture), secure-by-default paradigms, and validation through execution rather than theory. A distributed system must be designed to fail predictably, with clear boundaries and total observability. My approach prioritizes production reliability, relentless automation, and transparently sharing field-tested knowledge.
 
-## 🤝 Contributing / Contact
+## Contributing / Contact
 - **LinkedIn**: [Jihed Ben Arfa](https://www.linkedin.com/in/jihedbenarfa/)
 - **GitHub Discussions/Issues**: Feel free to open *issues* or *discussions* on the respective repositories.
 
@@ -62,5 +80,5 @@ Engineering is not just about writing code; it is primarily about managing compl
 
 ---
 <div align="center">
-  <small>Last updated: 2026-08-14 14:24:28 UTC</small>
+  <small>Last updated: 2026-08-14 15:37:56 UTC</small>
 </div>
