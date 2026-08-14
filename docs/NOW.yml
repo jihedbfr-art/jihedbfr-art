@@ -1,0 +1,16 @@
+en:
+  focus: "TODO(jihed)"
+  learning: "TODO(jihed)"
+  projects:
+    - name: "Tunisie TradeNet (TTN)"
+      description: "Senior Architecture Microservices (Java/Angular)"
+    - name: "engineering-library"
+      description: "Iterating on standard architectures and ADRs."
+fr:
+  focus: "TODO(jihed)"
+  learning: "TODO(jihed)"
+  projects:
+    - name: "Tunisie TradeNet (TTN)"
+      description: "Architecture Microservices Senior (Java/Angular)"
+    - name: "engineering-library"
+      description: "Itération sur les architectures standards et ADRs."
