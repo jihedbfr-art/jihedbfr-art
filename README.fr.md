@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="180"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/jihedailabs-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/brand/jihedailabs-logo-light.svg">
+    <img alt="JihedAiLabs" src="assets/brand/jihedailabs-logo-light.svg" width="180">
+  </picture>
 </div>
 
 # Jihed Ben Arfa
@@ -8,13 +12,14 @@
 
 **Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Connaissance d'ingénierie de production, laboratoires exécutables et bibliothèques Spring réutilisables pour architectes Java : systèmes distribués, sécurité Keycloak, orchestration BPMN, provisioning télécom et IA d'entreprise.
 
-<a href="./README.md">English version</a>
+[English](README.md) · **Français**
 
 </div>
 
 ---
 
 ## Start here
+
 | Si vous êtes… | Commencez par… |
 | --- | --- |
 | architecte Java/Spring | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |

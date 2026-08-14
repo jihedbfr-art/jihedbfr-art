@@ -48,19 +48,15 @@ def check_h2_parity(md_files):
             
     return errors
 
-def check_logos_and_tags(md_files, allow_legacy_switcher):
+def check_logos_and_tags(md_files):
     errors = []
     for f in md_files:
         content = f.read_text(encoding='utf-8')
         if f.name.startswith('README'):
             if 'assets/brand/jihedailabs-logo' not in content:
                 errors.append(f"Missing logo in {f}")
-            if allow_legacy_switcher:
-                if not re.search(r'(English|Français|Version française|English version)', content):
-                    errors.append(f"Missing language toggle in {f}")
-            else:
-                if not re.search(r'(English|Français)', content):
-                    errors.append(f"Missing standard language toggle (English/Français) in {f}")
+            if not re.search(r'(English|Français)', content):
+                errors.append(f"Missing standard language toggle (English/Français) in {f}")
         elif f.name == 'SKILL.md':
             if '<img' in content or '<picture>' in content or '![[' in content or '![' in content:
                 errors.append(f"Logo/Image forbidden in SKILL.md: {f}")
@@ -68,19 +64,16 @@ def check_logos_and_tags(md_files, allow_legacy_switcher):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--allow-legacy-switcher', action='store_true', help='Allow legacy language switchers until Vague 1')
+    parser.add_argument('--dir', type=str, default='.', help='Directory to scan')
     args = parser.parse_args()
     
-    if args.allow_legacy_switcher:
-        print("WARNING: Legacy language switcher is allowed. This must be removed in Vague 1.")
-        
-    root_dir = Path('.')
+    root_dir = Path(args.dir)
     md_files = get_markdown_files(root_dir)
     
     errors = []
     errors.extend(check_readme_twins(md_files))
     errors.extend(check_h2_parity(md_files))
-    errors.extend(check_logos_and_tags(md_files, args.allow_legacy_switcher))
+    errors.extend(check_logos_and_tags(md_files))
     
     if errors:
         print("Linting failed with the following errors:")
