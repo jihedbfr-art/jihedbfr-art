@@ -55,6 +55,17 @@ def build_index():
         headers["Authorization"] = f"token {os.environ['GITHUB_TOKEN']}"
         
     repos = fetch_repos()
+    if not repos:
+        print("Warning: No repos fetched from GitHub API. Loading existing skills-index.json as fallback if present.")
+        if os.path.exists("skills-index.json"):
+            try:
+                with open("skills-index.json", "r", encoding="utf-8") as f:
+                    cached = json.load(f)
+                    if cached:
+                        return cached
+            except Exception:
+                pass
+        return []
     
     # Filter out forks or keep them? We keep public repos.
     index_data = []
@@ -106,10 +117,12 @@ def save_json(data, filename):
         print(f"No changes for {filename}, skipping write.")
 
 def render_template(template_name, context, output_file):
-    env = Environment(loader=FileSystemLoader("templates"))
+    env = Environment(loader=FileSystemLoader("templates"), keep_trailing_newline=True)
     template = env.get_template(template_name)
     
     new_content = template.render(**context)
+    if not new_content.endswith("\n"):
+        new_content += "\n"
     
     has_diff = True
     if os.path.exists(output_file):
@@ -129,6 +142,9 @@ def render_template(template_name, context, output_file):
 def main():
     os.makedirs("docs", exist_ok=True)
     index_data = build_index()
+    if not index_data:
+        print("No index data available to write, aborting.")
+        return
     
     save_json(index_data, "skills-index.json")
     

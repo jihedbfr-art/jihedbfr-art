@@ -28,6 +28,7 @@
 - **Learning**: TODO(jihed)
 
 ## Start here
+
 | If you are a(n)... | Start with... |
 | --- | --- |
 | Java/Spring Architect | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
@@ -49,17 +50,17 @@
 | Repository | Language | Last Push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-08-07 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | - | - |
 
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-08-11 |
+| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | - | - |
 
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-07-19 |
+| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | - | - |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-07-20 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | - | - |
 
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | None | 2026-08-07 |
+| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | - | - |
 
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | None | 2026-08-07 |
+| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | - | - |
 
 
 ## Learning paths
@@ -80,5 +81,5 @@ Engineering is not just about writing code; it is primarily about managing compl
 
 ---
 <div align="center">
-  <small>Last updated: 2026-08-14 15:37:56 UTC</small>
+  <small>Last updated: 2026-08-14 22:01:23 UTC</small>
 </div>
