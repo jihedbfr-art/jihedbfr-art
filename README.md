@@ -50,7 +50,7 @@
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-08-11 |
 
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-07-19 |
+| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-08-25 |
 
 | [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-08-25 |
 
@@ -64,7 +64,7 @@
 2. **[Keycloak Security Mastery](https://github.com/jihedbfr-art/keycloak-spi-workbench)**: Understand and extend Keycloak (SPI), integrate OAuth2/OIDC with Spring.
 3. **[Orchestration & Resilience (BPMN)](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)**: Manage distributed transactions, saga patterns, and system resilience.
 4. **[Applied Enterprise AI](https://github.com/jihedbfr-art/ai-skills)**: Integrate Generative AI into existing production workflows (RAG, Agents, Spring AI).
-5. **[Standardization and CI/CD](https://github.com/jihedbfr-art/github-engineering-template)**: Implement code governance, quality gates, and advanced CI/CD.
+5. **[Standardization and CI/CD](https://github.com/jihedbfr-art/jihedbfr-art)**: Docs linting, i18n checks and freshness gates enforced on every push — the same governance pattern applied across every repo above.
 
 ## Engineering principles
 Engineering is not just about writing code; it is primarily about managing complexity. I strongly believe in simplicity by design (clean architecture), secure-by-default paradigms, and validation through execution rather than theory. A distributed system must be designed to fail predictably, with clear boundaries and total observability. My approach prioritizes production reliability, relentless automation, and transparently sharing field-tested knowledge.
@@ -77,5 +77,5 @@ Engineering is not just about writing code; it is primarily about managing compl
 
 ---
 <div align="center">
-  <small>Last updated: 2026-08-25 01:40:42 UTC</small>
+  <small>Last updated: 2026-08-25 10:05:03 UTC</small>
 </div>

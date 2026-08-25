@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-08-14T21:40:27Z",
+  "generated_at": "2026-08-25T09:05:23Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -29,7 +29,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "SKILL.md"
+        "agent": "README.md"
       },
       "languages": [
         "en",
@@ -51,7 +51,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "llms.txt"
+        "agent": "README.md"
       },
       "languages": [
         "en",
@@ -77,7 +77,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "SKILL.md"
+        "agent": "README.md"
       },
       "languages": [
         "en",
@@ -108,7 +108,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "llms.txt"
+        "agent": "README.md"
       },
       "languages": [
         "en",
@@ -172,7 +172,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "llms.txt"
+        "agent": "README.md"
       },
       "languages": [
         "en",
@@ -197,7 +197,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "llms.txt"
+        "agent": "README.md"
       },
       "languages": [
         "en",
@@ -219,7 +219,7 @@
       ],
       "entry_points": {
         "human": "README.md",
-        "agent": "llms.txt"
+        "agent": "README.md"
       },
       "languages": [
         "en",
