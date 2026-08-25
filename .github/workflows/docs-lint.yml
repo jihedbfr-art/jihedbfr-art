@@ -36,4 +36,4 @@ jobs:
       - name: Run Lychee (Link Checker)
         uses: lycheeverse/lychee-action@v2.9.0
         with:
-          args: --verbose --no-progress --accept 999 '**/*.md' 'llms*.txt' 'skills-index.json'
+          args: --verbose --no-progress --accept 200,301,302,999 '**/*.md' 'llms*.txt' 'skills-index.json'
