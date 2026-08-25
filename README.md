@@ -1,17 +1,9 @@
 <!-- GENERATED FILE — edit templates/README.en.j2 instead -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/jihedailabs-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/brand/jihedailabs-logo-light.svg">
-    <img alt="JihedAiLabs" src="assets/brand/jihedailabs-logo-light.svg" width="180">
-  </picture>
-</div>
-
 # Jihed Ben Arfa
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Production-grade engineering knowledge, executable labs and reusable Spring libraries for Java architects: distributed systems, Keycloak security, BPMN orchestration, telecom provisioning and enterprise AI engineering.
+Production-grade engineering knowledge, executable labs and reusable Spring libraries for Java architects: distributed systems, Keycloak security, BPMN orchestration, telecom provisioning and enterprise AI engineering.
 
 **English** · [Français](README.fr.md)
 
@@ -76,6 +68,15 @@ Engineering is not just about writing code; it is primarily about managing compl
 *(Direct contact is exclusively via LinkedIn or GitHub messages. No support or discussion via email is accepted.)*
 
 ---
+
 <div align="center">
-  <small>Last updated: 2026-08-25 10:05:03 UTC</small>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/jihedailabs-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/brand/jihedailabs-logo-light.svg">
+    <img alt="JihedAiLabs" src="assets/brand/jihedailabs-logo-light.svg" width="180">
+  </picture>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+  <br/>
+  <small>Last updated: 2026-08-25 12:03:40 UTC</small>
 </div>
