@@ -25,7 +25,7 @@ REPO_FALLBACK_METADATA = {
         "description": "Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts.",
         "kind": "knowledge-base",
         "domains": ["java", "spring-boot", "camunda", "kafka", "telecom-bss"],
-        "entry_points": {"human": "README.md", "agent": "llms.txt"},
+        "entry_points": {"human": "README.md", "agent": "README.md"},
         "languages": ["en", "fr"],
         "status": "active"
     },
@@ -33,7 +33,7 @@ REPO_FALLBACK_METADATA = {
         "description": "Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples.",
         "kind": "workbench",
         "domains": ["java", "keycloak", "security"],
-        "entry_points": {"human": "README.md", "agent": "llms.txt"},
+        "entry_points": {"human": "README.md", "agent": "README.md"},
         "languages": ["en", "fr"],
         "status": "active"
     },
@@ -41,7 +41,7 @@ REPO_FALLBACK_METADATA = {
         "description": "Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses",
         "kind": "library",
         "domains": ["java", "spring-boot", "keycloak", "security"],
-        "entry_points": {"human": "README.md", "agent": "llms.txt"},
+        "entry_points": {"human": "README.md", "agent": "README.md"},
         "languages": ["en", "fr"],
         "status": "active"
     },
@@ -49,7 +49,7 @@ REPO_FALLBACK_METADATA = {
         "description": "Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI",
         "kind": "knowledge-base",
         "domains": ["ai", "spring-ai", "mcp"],
-        "entry_points": {"human": "README.md", "agent": "SKILL.md"},
+        "entry_points": {"human": "README.md", "agent": "README.md"},
         "languages": ["en", "fr"],
         "status": "active"
     },
@@ -57,7 +57,7 @@ REPO_FALLBACK_METADATA = {
         "description": "A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.",
         "kind": "knowledge-base",
         "domains": ["cybersecurity", "security"],
-        "entry_points": {"human": "README.md", "agent": "SKILL.md"},
+        "entry_points": {"human": "README.md", "agent": "README.md"},
         "languages": ["en", "fr"],
         "status": "active"
     },
@@ -65,7 +65,7 @@ REPO_FALLBACK_METADATA = {
         "description": "A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free.",
         "kind": "knowledge-base",
         "domains": ["computer-science", "software-engineering", "cybersecurity"],
-        "entry_points": {"human": "README.md", "agent": "llms.txt"},
+        "entry_points": {"human": "README.md", "agent": "README.md"},
         "languages": ["en", "fr"],
         "status": "active"
     },
@@ -181,13 +181,13 @@ def build_index():
         entry_points = (
             (meta.get("entry_points") if meta else None) or
             fallback.get("entry_points") or
-            {"human": "README.md", "agent": "llms.txt"}
+            {"human": "README.md", "agent": "README.md"}
         )
         # Ensure entry_points has both human and agent
         if "human" not in entry_points:
             entry_points["human"] = "README.md"
         if "agent" not in entry_points:
-            entry_points["agent"] = "llms.txt"
+            entry_points["agent"] = "README.md"
             
         languages = fallback.get("languages", ["en", "fr"])
         status = fallback.get("status", "active")
