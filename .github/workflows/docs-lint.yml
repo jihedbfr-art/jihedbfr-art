@@ -34,6 +34,6 @@ jobs:
           globs: "**/*.md"
           
       - name: Run Lychee (Link Checker)
-        uses: lycheeverse/lychee-action@v2.0.2
+        uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: --verbose --no-progress '**/*.md' 'llms*.txt' 'skills-index.json'
