@@ -17,6 +17,8 @@ Pour la version contexte LLM, consultez [llms.txt](../llms.txt).
 
 | **[dev-library](https://github.com/jihedbfr-art/dev-library)** | `knowledge-base` | A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free. |
 
+| **[dev-tools-workbench](https://github.com/jihedbfr-art/dev-tools-workbench)** | `library` | Small, focused developer tools for gaps that mature tooling doesn't cover. |
+
 | **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** | `knowledge-base` | Java/Spring engineering notes from 10+ years in telecom BSS production: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide you won't find in another repo. |
 
 | **[jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art)** | `profile` | Central GitHub Profile and Ecosystem Index. Contains the machine-readable catalog of all JihedAiLabs repositories, automated profile generation, and agent governance rules. |

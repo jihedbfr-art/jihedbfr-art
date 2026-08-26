@@ -6,11 +6,11 @@
     </text>
     
     <text x="25" y="65" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
-        Public Repositories: <tspan fill="#4fc0ff" font-weight="bold">9</tspan>
+        Public Repositories: <tspan fill="#4fc0ff" font-weight="bold">10</tspan>
     </text>
     
     <text x="25" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">
-        Top Languages: <tspan fill="#4fc0ff" font-weight="bold">Python • Java</tspan>
+        Top Languages: <tspan fill="#4fc0ff" font-weight="bold">Java • Python</tspan>
     </text>
 
     <text x="25" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">

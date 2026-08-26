@@ -6,7 +6,7 @@
 ## [ai-skills](https://github.com/jihedbfr-art/ai-skills)
 - **Description**: Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI
 - **Type**: knowledge-base
-- **Topics**: agents, ai-engineering, guardrails, llm, mcp, prompt-engineering, rag, spring-ai, vector-database
+- **Topics**: agents, ai-engineering, guardrails, llm, mcp, prompt-engineering, rag, spring-ai, vector-database, ai-agents, anthropic, claude, llm-engineering
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/ai-skills/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/ai-skills/blob/main/README.md)
 
@@ -14,7 +14,7 @@
 ## [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)
 - **Description**: Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts.
 - **Type**: knowledge-base
-- **Topics**: bpmn, camunda, kafka, spring-boot, telecom, saga-pattern
+- **Topics**: bpmn, camunda, kafka, spring-boot, telecom, saga-pattern, event-driven-architecture, java, microservices, orchestration
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/bpmn-provisioning-patterns/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/bpmn-provisioning-patterns/blob/main/README.md)
 
@@ -22,7 +22,7 @@
 ## [cyber-skills](https://github.com/jihedbfr-art/cyber-skills)
 - **Description**: A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
 - **Type**: knowledge-base
-- **Topics**: appsec, awesome, blue-team, cloud-security, cybersecurity, infosec, pentesting, red-team, security, security-skills
+- **Topics**: appsec, awesome, blue-team, cloud-security, cybersecurity, infosec, pentesting, red-team, security, security-skills, devsecops, incident-response, owasp, threat-intelligence
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/cyber-skills/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/cyber-skills/blob/main/README.md)
 
@@ -35,10 +35,18 @@
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/dev-library/blob/main/README.md)
 
 
+## [dev-tools-workbench](https://github.com/jihedbfr-art/dev-tools-workbench)
+- **Description**: Small, focused developer tools for gaps that mature tooling doesn't cover.
+- **Type**: library
+- **Topics**: camunda, developer-tools, java, kafka, keycloak, spring-boot
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/dev-tools-workbench/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/dev-tools-workbench/blob/main/README.md)
+
+
 ## [engineering-library](https://github.com/jihedbfr-art/engineering-library)
 - **Description**: Java/Spring engineering notes from 10+ years in telecom BSS production: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide you won't find in another repo.
 - **Type**: knowledge-base
-- **Topics**: ai-engineering, angular, architecture, engineering-library, java, keycloak, microservices, spring-boot, software-engineering, telecom
+- **Topics**: ai-engineering, angular, architecture, engineering-library, java, keycloak, microservices, spring-boot, software-engineering, telecom, adr, knowledge-base, system-design
 - **Agent Entry Point**: [llms.txt](https://github.com/jihedbfr-art/engineering-library/blob/main/llms.txt)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/engineering-library/blob/main/README.md)
 
@@ -62,7 +70,7 @@
 ## [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)
 - **Description**: Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples.
 - **Type**: workbench
-- **Topics**: authentication, keycloak, keycloak-spi, mfa, spring-boot, testcontainers, apache-kafka, postgresql, user-federation
+- **Topics**: authentication, keycloak, keycloak-spi, mfa, spring-boot, testcontainers, apache-kafka, postgresql, user-federation, identity-and-access-management, java, oauth2, oidc
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/keycloak-spi-workbench/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/keycloak-spi-workbench/blob/main/README.md)
 
@@ -70,7 +78,7 @@
 ## [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)
 - **Description**: Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses
 - **Type**: library
-- **Topics**: jwt, keycloak, oauth2, rfc7807, spring-boot, spring-security
+- **Topics**: jwt, keycloak, oauth2, rfc7807, spring-boot, spring-security, java, oidc, resource-server
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
 
