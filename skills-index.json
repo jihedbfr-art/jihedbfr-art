@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-08-25T09:05:23Z",
+  "generated_at": "2026-08-26T00:55:52Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -25,7 +25,11 @@
         "prompt-engineering",
         "rag",
         "spring-ai",
-        "vector-database"
+        "vector-database",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "llm-engineering"
       ],
       "entry_points": {
         "human": "README.md",
@@ -47,7 +51,11 @@
         "kafka",
         "spring-boot",
         "telecom",
-        "saga-pattern"
+        "saga-pattern",
+        "event-driven-architecture",
+        "java",
+        "microservices",
+        "orchestration"
       ],
       "entry_points": {
         "human": "README.md",
@@ -73,7 +81,11 @@
         "pentesting",
         "red-team",
         "security",
-        "security-skills"
+        "security-skills",
+        "devsecops",
+        "incident-response",
+        "owasp",
+        "threat-intelligence"
       ],
       "entry_points": {
         "human": "README.md",
@@ -117,6 +129,28 @@
       "status": "active"
     },
     {
+      "id": "dev-tools-workbench",
+      "url": "https://github.com/jihedbfr-art/dev-tools-workbench",
+      "kind": "library",
+      "domains": [
+        "camunda",
+        "developer-tools",
+        "java",
+        "kafka",
+        "keycloak",
+        "spring-boot"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
       "id": "engineering-library",
       "url": "https://github.com/jihedbfr-art/engineering-library",
       "kind": "knowledge-base",
@@ -130,7 +164,10 @@
         "microservices",
         "spring-boot",
         "software-engineering",
-        "telecom"
+        "telecom",
+        "adr",
+        "knowledge-base",
+        "system-design"
       ],
       "entry_points": {
         "human": "README.md",
@@ -193,7 +230,11 @@
         "testcontainers",
         "apache-kafka",
         "postgresql",
-        "user-federation"
+        "user-federation",
+        "identity-and-access-management",
+        "java",
+        "oauth2",
+        "oidc"
       ],
       "entry_points": {
         "human": "README.md",
@@ -215,7 +256,10 @@
         "oauth2",
         "rfc7807",
         "spring-boot",
-        "spring-security"
+        "spring-security",
+        "java",
+        "oidc",
+        "resource-server"
       ],
       "entry_points": {
         "human": "README.md",
