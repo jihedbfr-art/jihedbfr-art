@@ -38,7 +38,7 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 | Dépôt | Langage | Dernier push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-08-28 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-09-02 |
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-08-25 |
 
@@ -46,7 +46,7 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 
 | [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-08-25 |
 
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-08-25 |
+| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-09-02 |
 
 | [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-08-25 |
 
@@ -78,5 +78,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
   <br/>
   <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
   <br/>
-  <small>Dernière mise à jour : 2026-08-29 05:11:16 UTC</small>
+  <small>Dernière mise à jour : 2026-09-03 02:31:14 UTC</small>
 </div>

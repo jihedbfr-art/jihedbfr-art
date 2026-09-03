@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-08-26T00:55:52Z",
+  "generated_at": "2026-09-03T02:31:19Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -180,6 +180,48 @@
       "status": "active"
     },
     {
+      "id": "jihed-skills-cli",
+      "url": "https://github.com/jihedbfr-art/jihed-skills-cli",
+      "kind": "library",
+      "domains": [
+        "ai-engineering",
+        "cli",
+        "developer-tools",
+        "documentation",
+        "python"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "jihed-skills-mcp",
+      "url": "https://github.com/jihedbfr-art/jihed-skills-mcp",
+      "kind": "library",
+      "domains": [
+        "ai-agents",
+        "llm-tools",
+        "mcp",
+        "model-context-protocol",
+        "python"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
       "id": "jihedbfr-art",
       "url": "https://github.com/jihedbfr-art/jihedbfr-art",
       "kind": "profile",
@@ -260,6 +302,29 @@
         "java",
         "oidc",
         "resource-server"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "telecom-architecture",
+      "url": "https://github.com/jihedbfr-art/telecom-architecture",
+      "kind": "library",
+      "domains": [
+        "5g",
+        "architecture",
+        "bss",
+        "microservices",
+        "oss",
+        "telecom",
+        "tmforum"
       ],
       "entry_points": {
         "human": "README.md",

@@ -21,6 +21,10 @@ For the LLM context version, see [llms.txt](../llms.txt).
 
 | **[engineering-library](https://github.com/jihedbfr-art/engineering-library)** | `knowledge-base` | Java/Spring engineering notes from 10+ years in telecom BSS production: architecture decisions, failure write-ups, debugging recipes, and a telecom domain guide you won't find in another repo. |
 
+| **[jihed-skills-cli](https://github.com/jihedbfr-art/jihed-skills-cli)** | `library` | Read the ai-skills engineering skill library from the terminal. |
+
+| **[jihed-skills-mcp](https://github.com/jihedbfr-art/jihed-skills-mcp)** | `library` | MCP server that serves the ai-skills engineering skill library to autonomous agents. |
+
 | **[jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art)** | `profile` | Central GitHub Profile and Ecosystem Index. Contains the machine-readable catalog of all JihedAiLabs repositories, automated profile generation, and agent governance rules. |
 
 | **[keycloak](https://github.com/jihedbfr-art/keycloak)** | `library` | Open Source Identity and Access Management For Modern Applications and Services |
@@ -28,6 +32,8 @@ For the LLM context version, see [llms.txt](../llms.txt).
 | **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** | `workbench` | Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples. |
 
 | **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** | `library` | Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses |
+
+| **[telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)** | `library` | Architecture notes on telecom BSS, OSS and the 5G core: charging, provisioning, TM Forum APIs. Bilingual EN/FR. |
 
 
 ---

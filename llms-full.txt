@@ -51,6 +51,22 @@
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/engineering-library/blob/main/README.md)
 
 
+## [jihed-skills-cli](https://github.com/jihedbfr-art/jihed-skills-cli)
+- **Description**: Read the ai-skills engineering skill library from the terminal.
+- **Type**: library
+- **Topics**: ai-engineering, cli, developer-tools, documentation, python
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/jihed-skills-cli/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/jihed-skills-cli/blob/main/README.md)
+
+
+## [jihed-skills-mcp](https://github.com/jihedbfr-art/jihed-skills-mcp)
+- **Description**: MCP server that serves the ai-skills engineering skill library to autonomous agents.
+- **Type**: library
+- **Topics**: ai-agents, llm-tools, mcp, model-context-protocol, python
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/jihed-skills-mcp/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/jihed-skills-mcp/blob/main/README.md)
+
+
 ## [jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art)
 - **Description**: Central GitHub Profile and Ecosystem Index. Contains the machine-readable catalog of all JihedAiLabs repositories, automated profile generation, and agent governance rules.
 - **Type**: profile
@@ -81,6 +97,14 @@
 - **Topics**: jwt, keycloak, oauth2, rfc7807, spring-boot, spring-security, java, oidc, resource-server
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
+
+
+## [telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)
+- **Description**: Architecture notes on telecom BSS, OSS and the 5G core: charging, provisioning, TM Forum APIs. Bilingual EN/FR.
+- **Type**: library
+- **Topics**: 5g, architecture, bss, microservices, oss, telecom, tmforum
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/telecom-architecture/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/telecom-architecture/blob/main/README.md)
 
 
 
