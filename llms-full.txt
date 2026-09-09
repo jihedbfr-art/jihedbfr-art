@@ -91,6 +91,14 @@
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/keycloak-spi-workbench/blob/main/README.md)
 
 
+## [mcp-keycloak-guard](https://github.com/jihedbfr-art/mcp-keycloak-guard)
+- **Description**: Reference MCP server that authorizes every tool call against Keycloak realm roles — per-tool RBAC, not just authenticated/unauthenticated.
+- **Type**: library
+- **Topics**: software-engineering
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/mcp-keycloak-guard/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/mcp-keycloak-guard/blob/main/README.md)
+
+
 ## [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)
 - **Description**: Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses
 - **Type**: library

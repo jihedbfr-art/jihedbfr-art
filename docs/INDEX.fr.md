@@ -31,6 +31,8 @@ Pour la version contexte LLM, consultez [llms.txt](../llms.txt).
 
 | **[keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench)** | `workbench` | Custom Keycloak SPIs done properly: real providers, each with tests, no toy examples. |
 
+| **[mcp-keycloak-guard](https://github.com/jihedbfr-art/mcp-keycloak-guard)** | `library` | Reference MCP server that authorizes every tool call against Keycloak realm roles — per-tool RBAC, not just authenticated/unauthenticated. |
+
 | **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** | `library` | Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses |
 
 | **[telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)** | `library` | Architecture notes on telecom BSS, OSS and the 5G core: charging, provisioning, TM Forum APIs. Bilingual EN/FR. |

@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-09-03T02:31:19Z",
+  "generated_at": "2026-09-09T02:35:16Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -277,6 +277,23 @@
         "java",
         "oauth2",
         "oidc"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "mcp-keycloak-guard",
+      "url": "https://github.com/jihedbfr-art/mcp-keycloak-guard",
+      "kind": "library",
+      "domains": [
+        "software-engineering"
       ],
       "entry_points": {
         "human": "README.md",
