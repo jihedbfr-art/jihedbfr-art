@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-09-09T02:35:16Z",
+  "generated_at": "2026-09-19T02:41:11Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -210,6 +210,23 @@
         "mcp",
         "model-context-protocol",
         "python"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "jihedailabs-tokenlens",
+      "url": "https://github.com/jihedbfr-art/jihedailabs-tokenlens",
+      "kind": "library",
+      "domains": [
+        "software-engineering"
       ],
       "entry_points": {
         "human": "README.md",

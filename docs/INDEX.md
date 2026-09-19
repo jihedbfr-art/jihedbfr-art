@@ -25,6 +25,8 @@ For the LLM context version, see [llms.txt](../llms.txt).
 
 | **[jihed-skills-mcp](https://github.com/jihedbfr-art/jihed-skills-mcp)** | `library` | MCP server that serves the ai-skills engineering skill library to autonomous agents. |
 
+| **[jihedailabs-tokenlens](https://github.com/jihedbfr-art/jihedailabs-tokenlens)** | `library` | Local, offline report of where your AI coding assistant tokens go — no telemetry, multi-tool. |
+
 | **[jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art)** | `profile` | Central GitHub Profile and Ecosystem Index. Contains the machine-readable catalog of all JihedAiLabs repositories, automated profile generation, and agent governance rules. |
 
 | **[keycloak](https://github.com/jihedbfr-art/keycloak)** | `library` | Open Source Identity and Access Management For Modern Applications and Services |
