@@ -42,7 +42,7 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-09-05 |
 
-| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-09-06 |
+| [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-09-29 |
 
 | [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-09-08 |
 
@@ -78,5 +78,5 @@ Engineering is not just about writing code; it is primarily about managing compl
   <br/>
   <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
   <br/>
-  <small>Last updated: 2026-09-26 03:01:29 UTC</small>
+  <small>Last updated: 2026-09-30 03:31:07 UTC</small>
 </div>
