@@ -38,7 +38,7 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 | Repository | Language | Last Push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-09-25 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-01 |
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-09-05 |
 
@@ -78,5 +78,5 @@ Engineering is not just about writing code; it is primarily about managing compl
   <br/>
   <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
   <br/>
-  <small>Last updated: 2026-09-30 03:31:07 UTC</small>
+  <small>Last updated: 2026-10-02 03:35:58 UTC</small>
 </div>
