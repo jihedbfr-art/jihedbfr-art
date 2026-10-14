@@ -38,9 +38,9 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 | Repository | Language | Last Push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-02 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-13 |
 
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-09-05 |
+| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-10-13 |
 
 | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-09-29 |
 
@@ -48,7 +48,7 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 
 | [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-09-08 |
 
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-08-25 |
+| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-13 |
 
 
 ## Learning paths
@@ -78,5 +78,5 @@ Engineering is not just about writing code; it is primarily about managing compl
   <br/>
   <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
   <br/>
-  <small>Last updated: 2026-10-03 03:20:07 UTC</small>
+  <small>Last updated: 2026-10-14 03:06:19 UTC</small>
 </div>
