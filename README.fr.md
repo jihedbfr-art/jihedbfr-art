@@ -38,17 +38,17 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 | Dépôt | Langage | Dernier push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-13 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-14 |
 
-| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-10-13 |
+| [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-10-14 |
 
 | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-09-29 |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-09-08 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-10-14 |
 
-| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-09-08 |
+| [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-10-14 |
 
-| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-13 |
+| [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-14 |
 
 
 ## Parcours d'apprentissage
@@ -78,5 +78,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
   <br/>
   <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
   <br/>
-  <small>Dernière mise à jour : 2026-10-14 03:06:19 UTC</small>
+  <small>Dernière mise à jour : 2026-10-15 02:46:11 UTC</small>
 </div>
