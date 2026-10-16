@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-09-19T02:41:11Z",
+  "generated_at": "2026-10-16T02:42:41Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -308,6 +308,23 @@
     {
       "id": "mcp-keycloak-guard",
       "url": "https://github.com/jihedbfr-art/mcp-keycloak-guard",
+      "kind": "library",
+      "domains": [
+        "software-engineering"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "oda-learning-lab",
+      "url": "https://github.com/jihedbfr-art/oda-learning-lab",
       "kind": "library",
       "domains": [
         "software-engineering"
