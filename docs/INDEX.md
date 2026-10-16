@@ -35,6 +35,8 @@ For the LLM context version, see [llms.txt](../llms.txt).
 
 | **[mcp-keycloak-guard](https://github.com/jihedbfr-art/mcp-keycloak-guard)** | `library` | Reference MCP server that authorizes every tool call against Keycloak realm roles — per-tool RBAC, not just authenticated/unauthenticated. |
 
+| **[oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)** | `library` | Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum. |
+
 | **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** | `library` | Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses |
 
 | **[telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)** | `library` | Architecture notes on telecom BSS, OSS and the 5G core: charging, provisioning, TM Forum APIs. Bilingual EN/FR. |
