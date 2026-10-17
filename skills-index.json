@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-10-17T02:34:06Z",
+  "generated_at": "2026-10-17T22:28:34Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -72,7 +72,13 @@
       "url": "https://github.com/jihedbfr-art/component-manifest-lint",
       "kind": "library",
       "domains": [
-        "software-engineering"
+        "bilingual",
+        "kubernetes",
+        "linter",
+        "manifest-validation",
+        "python",
+        "telecom",
+        "yaml"
       ],
       "entry_points": {
         "human": "README.md",
@@ -342,9 +348,13 @@
     {
       "id": "oda-learning-lab",
       "url": "https://github.com/jihedbfr-art/oda-learning-lab",
-      "kind": "library",
+      "kind": "knowledge-base",
       "domains": [
-        "software-engineering"
+        "bilingual",
+        "education",
+        "open-apis",
+        "study-guide",
+        "telecom"
       ],
       "entry_points": {
         "human": "README.md",
@@ -361,7 +371,14 @@
       "url": "https://github.com/jihedbfr-art/openapi-sentinel",
       "kind": "library",
       "domains": [
-        "software-engineering"
+        "api-governance",
+        "bilingual",
+        "breaking-changes",
+        "linter",
+        "openapi",
+        "python",
+        "swagger",
+        "telecom"
       ],
       "entry_points": {
         "human": "README.md",

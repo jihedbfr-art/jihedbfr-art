@@ -22,7 +22,8 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 | Architecte Java/Spring | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
 | Ingénieur Sécurité / IAM | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) + [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) |
 | Ingénieur IA d'entreprise | [ai-skills](https://github.com/jihedbfr-art/ai-skills) |
-| Ingénieur Télécom / BSS | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) |
+| Ingénieur Télécom / BSS | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) + [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) |
+| Ingénieur API / Plateforme (télécom) | [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) + [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) |
 | Agent de codage | `llms.txt` / `skills-index.json` |
 
 ## Projets phares
@@ -32,6 +33,10 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 - 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Bibliothèque d'auto-configuration Spring Boot d'entreprise pour les serveurs de ressources Keycloak OAuth2/OIDC, résolvant le mapping de rôles et les détails de problèmes RFC 7807.
 - 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Base de connaissances pragmatique en ingénierie IA (Économie des LLM, RAG Hybride, Orchestration Multi-Agents, Protocole MCP, Spring AI & Guardrails) propulsée par *JihedAiLabs*.
 - 🛡️ **[cyber-skills](https://github.com/jihedbfr-art/cyber-skills)** — Une bibliothèque de compétences de sécurité sur 26 domaines — chacune étant un SKILL.md prêt pour les agents qui sert également d'aide-mémoire pour les humains. Bilingue EN/FR.
+
+- 🧭 **[oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)** — Parcours d'étude non officiel, bilingue EN/FR, sur l'Open Digital Architecture : neuf modules, cinq labs exécutables et une matrice des sources qui sépare ce qui a été vérifié de ce qui a seulement été rapporté.
+- 🔎 **[openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)** — Contrôle hors ligne des descriptions OpenAPI/Swagger et détection des ruptures entre versions, avec des conventions de type télécom observées dans des API publiques. Messages bilingues.
+- 🧩 **[component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint)** — Contrôles hors ligne des manifestes de composants télécom au regard du schéma publié : champs inconnus, champs obligatoires, types, cohérence avec les services. Messages bilingues.
 
 ### Activité
 
@@ -49,6 +54,12 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 | [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-10-15 |
 
 | [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-15 |
+
+| [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-17 |
+
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-17 |
+
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-17 |
 
 
 ## Parcours d'apprentissage
@@ -78,5 +89,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
   <br/>
   <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
   <br/>
-  <small>Dernière mise à jour : 2026-10-16 02:42:32 UTC</small>
+  <small>Dernière mise à jour : 2026-10-17 23:27:45 UTC</small>
 </div>

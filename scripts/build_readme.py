@@ -13,7 +13,10 @@ FLAGSHIP_REPOS = [
     "keycloak-spi-workbench",
     "spring-keycloak-toolkit",
     "ai-skills",
-    "cyber-skills"
+    "cyber-skills",
+    "oda-learning-lab",
+    "openapi-sentinel",
+    "component-manifest-lint"
 ]
 
 def fetch_flagship_repos():
