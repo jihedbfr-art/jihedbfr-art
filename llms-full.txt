@@ -22,7 +22,7 @@
 ## [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint)
 - **Description**: Offline checks for telecom Component manifests (unknown fields, required fields, types, service consistency). EN/FR.
 - **Type**: library
-- **Topics**: software-engineering
+- **Topics**: bilingual, kubernetes, linter, manifest-validation, python, telecom, yaml
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/component-manifest-lint/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/component-manifest-lint/blob/main/README.md)
 
@@ -79,8 +79,8 @@
 - **Description**: Local, offline report of where your AI coding assistant tokens go — no telemetry, multi-tool.
 - **Type**: library
 - **Topics**: software-engineering
-- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedailabs-tokenlens/blob/main/README.md)
-- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedailabs-tokenlens/blob/main/README.md)
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedailabs-tokenlens/blob/master/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedailabs-tokenlens/blob/master/README.md)
 
 
 ## [jihedbfr-art](https://github.com/jihedbfr-art/jihedbfr-art)
@@ -118,7 +118,7 @@
 ## [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)
 - **Description**: Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum.
 - **Type**: library
-- **Topics**: software-engineering
+- **Topics**: bilingual, education, open-apis, study-guide, telecom
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/oda-learning-lab/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/oda-learning-lab/blob/main/README.md)
 
@@ -126,7 +126,7 @@
 ## [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)
 - **Description**: Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR.
 - **Type**: library
-- **Topics**: software-engineering
+- **Topics**: api-governance, bilingual, breaking-changes, linter, openapi, python, swagger, telecom
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/openapi-sentinel/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/openapi-sentinel/blob/main/README.md)
 
