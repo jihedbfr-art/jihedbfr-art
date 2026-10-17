@@ -19,6 +19,14 @@
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/bpmn-provisioning-patterns/blob/main/README.md)
 
 
+## [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint)
+- **Description**: Offline checks for telecom Component manifests (unknown fields, required fields, types, service consistency). EN/FR.
+- **Type**: library
+- **Topics**: software-engineering
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/component-manifest-lint/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/component-manifest-lint/blob/main/README.md)
+
+
 ## [cyber-skills](https://github.com/jihedbfr-art/cyber-skills)
 - **Description**: A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
 - **Type**: knowledge-base
@@ -113,6 +121,14 @@
 - **Topics**: software-engineering
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/oda-learning-lab/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/oda-learning-lab/blob/main/README.md)
+
+
+## [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)
+- **Description**: Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR.
+- **Type**: library
+- **Topics**: software-engineering
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/openapi-sentinel/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/openapi-sentinel/blob/main/README.md)
 
 
 ## [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)

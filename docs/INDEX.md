@@ -13,6 +13,8 @@ For the LLM context version, see [llms.txt](../llms.txt).
 
 | **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** | `knowledge-base` | Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts. |
 
+| **[component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint)** | `library` | Offline checks for telecom Component manifests (unknown fields, required fields, types, service consistency). EN/FR. |
+
 | **[cyber-skills](https://github.com/jihedbfr-art/cyber-skills)** | `knowledge-base` | A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR. |
 
 | **[dev-library](https://github.com/jihedbfr-art/dev-library)** | `knowledge-base` | A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free. |
@@ -36,6 +38,8 @@ For the LLM context version, see [llms.txt](../llms.txt).
 | **[mcp-keycloak-guard](https://github.com/jihedbfr-art/mcp-keycloak-guard)** | `library` | Reference MCP server that authorizes every tool call against Keycloak realm roles — per-tool RBAC, not just authenticated/unauthenticated. |
 
 | **[oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)** | `library` | Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum. |
+
+| **[openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)** | `library` | Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR. |
 
 | **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** | `library` | Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses |
 
