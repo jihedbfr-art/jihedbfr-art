@@ -61,6 +61,30 @@ REPO_FALLBACK_METADATA = {
         "languages": ["en", "fr"],
         "status": "active"
     },
+    "oda-learning-lab": {
+        "description": "Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum.",
+        "kind": "knowledge-base",
+        "domains": ["telecom", "education", "open-apis"],
+        "entry_points": {"human": "README.md", "agent": "README.md"},
+        "languages": ["en", "fr"],
+        "status": "active"
+    },
+    "openapi-sentinel": {
+        "description": "Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR.",
+        "kind": "library",
+        "domains": ["openapi", "api-governance", "telecom"],
+        "entry_points": {"human": "README.md", "agent": "README.md"},
+        "languages": ["en", "fr"],
+        "status": "active"
+    },
+    "component-manifest-lint": {
+        "description": "Offline checks for telecom Component manifests (unknown fields, required fields, types, service consistency). EN/FR.",
+        "kind": "library",
+        "domains": ["kubernetes", "telecom", "manifest-validation"],
+        "entry_points": {"human": "README.md", "agent": "README.md"},
+        "languages": ["en", "fr"],
+        "status": "active"
+    },
     "dev-library": {
         "description": "A developer's encyclopedia: computer science, programming languages, web, networking, cloud, DevSecOps, cybersecurity, AI, and software engineering — practical and free.",
         "kind": "knowledge-base",

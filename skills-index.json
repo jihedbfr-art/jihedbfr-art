@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-10-17T22:30:41Z",
+  "generated_at": "2026-10-17T22:34:23Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -348,7 +348,7 @@
     {
       "id": "oda-learning-lab",
       "url": "https://github.com/jihedbfr-art/oda-learning-lab",
-      "kind": "library",
+      "kind": "knowledge-base",
       "domains": [
         "bilingual",
         "education",

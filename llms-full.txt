@@ -117,7 +117,7 @@
 
 ## [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)
 - **Description**: Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum.
-- **Type**: library
+- **Type**: knowledge-base
 - **Topics**: bilingual, education, open-apis, study-guide, telecom
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/oda-learning-lab/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/oda-learning-lab/blob/main/README.md)

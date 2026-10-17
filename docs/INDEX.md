@@ -37,7 +37,7 @@ For the LLM context version, see [llms.txt](../llms.txt).
 
 | **[mcp-keycloak-guard](https://github.com/jihedbfr-art/mcp-keycloak-guard)** | `library` | Reference MCP server that authorizes every tool call against Keycloak realm roles — per-tool RBAC, not just authenticated/unauthenticated. |
 
-| **[oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)** | `library` | Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum. |
+| **[oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)** | `knowledge-base` | Unofficial community learning path for TM Forum's Open Digital Architecture (ODA): bilingual EN/FR modules and labs. Not affiliated with TM Forum. |
 
 | **[openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)** | `library` | Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR. |
 

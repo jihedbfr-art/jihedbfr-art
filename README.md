@@ -22,7 +22,8 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 | Java/Spring Architect | [engineering-library](https://github.com/jihedbfr-art/engineering-library) |
 | Security / IAM Engineer | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) + [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) |
 | Enterprise AI Engineer | [ai-skills](https://github.com/jihedbfr-art/ai-skills) |
-| Telecom / BSS Engineer | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) |
+| Telecom / BSS Engineer | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) + [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) |
+| API / Platform Engineer (telecom) | [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) + [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) |
 | Coding Agent | `llms.txt` / `skills-index.json` |
 
 ## Flagship projects
@@ -32,6 +33,10 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 - 🔐 **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** — Enterprise Spring Boot auto-configuration library for Keycloak OAuth2/OIDC Resource Servers, solving role-mapping and RFC 7807 problem details.
 - 🤖 **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** — Pragmatic AI Engineering Knowledge Base (LLM Economics, Hybrid RAG, Multi-Agent Orchestration, MCP Protocol, Spring AI & Guardrails) powered by *JihedAiLabs*.
 - 🛡️ **[cyber-skills](https://github.com/jihedbfr-art/cyber-skills)** — A working library of security skills across 26 domains — each an agent-ready SKILL.md that doubles as a human cheatsheet. Bilingual EN/FR.
+
+- 🧭 **[oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab)** — Unofficial, bilingual EN/FR study path on the Open Digital Architecture: nine modules, five executable labs, and a source matrix that separates what was verified from what was only reported.
+- 🔎 **[openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)** — Offline lint and breaking-change check for OpenAPI/Swagger descriptions, with telecom-style conventions observed in public APIs. Bilingual messages.
+- 🧩 **[component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint)** — Offline checks for telecom component manifests against the published schema: unknown fields, required fields, types, service consistency. Bilingual messages.
 
 ### Activity
 
@@ -49,6 +54,12 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 | [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-10-15 |
 
 | [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-15 |
+
+| [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-17 |
+
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-17 |
+
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-17 |
 
 
 ## Learning paths
@@ -78,5 +89,5 @@ Engineering is not just about writing code; it is primarily about managing compl
   <br/>
   <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
   <br/>
-  <small>Last updated: 2026-10-16 02:42:32 UTC</small>
+  <small>Last updated: 2026-10-17 23:27:45 UTC</small>
 </div>
