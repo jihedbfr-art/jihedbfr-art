@@ -209,7 +209,8 @@ def build_index():
             "type": kind,
             "description": description,
             "topics": topics,
-            "entry_points": entry_points
+            "entry_points": entry_points,
+            "default_branch": api_data.get("default_branch") or "main"
         })
         
     return repositories_schema, template_repos
