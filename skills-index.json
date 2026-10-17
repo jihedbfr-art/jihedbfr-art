@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-10-16T02:42:41Z",
+  "generated_at": "2026-10-17T02:34:06Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -56,6 +56,23 @@
         "java",
         "microservices",
         "orchestration"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "component-manifest-lint",
+      "url": "https://github.com/jihedbfr-art/component-manifest-lint",
+      "kind": "library",
+      "domains": [
+        "software-engineering"
       ],
       "entry_points": {
         "human": "README.md",
@@ -325,6 +342,23 @@
     {
       "id": "oda-learning-lab",
       "url": "https://github.com/jihedbfr-art/oda-learning-lab",
+      "kind": "library",
+      "domains": [
+        "software-engineering"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "openapi-sentinel",
+      "url": "https://github.com/jihedbfr-art/openapi-sentinel",
       "kind": "library",
       "domains": [
         "software-engineering"
