@@ -55,11 +55,11 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 
 | [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-15 |
 
-| [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-18 |
+| [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-19 |
 
-| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-18 |
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-19 |
 
-| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-18 |
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-19 |
 
 
 ## Learning paths
@@ -89,5 +89,5 @@ Engineering is not just about writing code; it is primarily about managing compl
   <br/>
   <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
   <br/>
-  <small>Last updated: 2026-10-19 02:49:11 UTC</small>
+  <small>Last updated: 2026-10-20 02:59:28 UTC</small>
 </div>

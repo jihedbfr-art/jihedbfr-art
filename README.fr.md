@@ -55,11 +55,11 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 
 | [cyber-skills](https://github.com/jihedbfr-art/cyber-skills) | Python | 2026-10-15 |
 
-| [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-18 |
+| [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-19 |
 
-| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-18 |
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-19 |
 
-| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-18 |
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-19 |
 
 
 ## Parcours d'apprentissage
@@ -89,5 +89,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
   <br/>
   <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
   <br/>
-  <small>Dernière mise à jour : 2026-10-19 02:49:11 UTC</small>
+  <small>Dernière mise à jour : 2026-10-20 02:59:28 UTC</small>
 </div>
