@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-10-17T22:34:23Z",
+  "generated_at": "2026-10-22T02:52:52Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -12,6 +12,25 @@
     "fr"
   ],
   "repositories": [
+    {
+      "id": ".github",
+      "url": "https://github.com/jihedbfr-art/.github",
+      "kind": "library",
+      "domains": [
+        "bilingual",
+        "community",
+        "contributing"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
     {
       "id": "ai-skills",
       "url": "https://github.com/jihedbfr-art/ai-skills",
@@ -78,7 +97,8 @@
         "manifest-validation",
         "python",
         "telecom",
-        "yaml"
+        "yaml",
+        "sarif"
       ],
       "entry_points": {
         "human": "README.md",
@@ -249,7 +269,12 @@
       "url": "https://github.com/jihedbfr-art/jihedailabs-tokenlens",
       "kind": "library",
       "domains": [
-        "software-engineering"
+        "ai-coding",
+        "cli",
+        "developer-tools",
+        "privacy",
+        "python",
+        "token-usage"
       ],
       "entry_points": {
         "human": "README.md",
@@ -333,7 +358,11 @@
       "url": "https://github.com/jihedbfr-art/mcp-keycloak-guard",
       "kind": "library",
       "domains": [
-        "software-engineering"
+        "java",
+        "keycloak",
+        "mcp",
+        "model-context-protocol",
+        "rbac"
       ],
       "entry_points": {
         "human": "README.md",
@@ -378,7 +407,8 @@
         "openapi",
         "python",
         "swagger",
-        "telecom"
+        "telecom",
+        "sarif"
       ],
       "entry_points": {
         "human": "README.md",
@@ -404,6 +434,28 @@
         "java",
         "oidc",
         "resource-server"
+      ],
+      "entry_points": {
+        "human": "README.md",
+        "agent": "README.md"
+      },
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "telecom-api-governance-starter",
+      "url": "https://github.com/jihedbfr-art/telecom-api-governance-starter",
+      "kind": "library",
+      "domains": [
+        "api-governance",
+        "bilingual",
+        "openapi",
+        "python",
+        "sarif",
+        "telecom"
       ],
       "entry_points": {
         "human": "README.md",

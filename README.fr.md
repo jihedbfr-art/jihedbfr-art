@@ -43,13 +43,13 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 | Dépôt | Langage | Dernier push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-15 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-21 |
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-10-15 |
 
 | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-09-29 |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-10-15 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-10-21 |
 
 | [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-10-15 |
 
@@ -57,9 +57,9 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 
 | [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-19 |
 
-| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-19 |
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-21 |
 
-| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-19 |
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-21 |
 
 
 ## Parcours d'apprentissage
@@ -89,5 +89,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
   <br/>
   <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
   <br/>
-  <small>Dernière mise à jour : 2026-10-20 02:59:28 UTC</small>
+  <small>Dernière mise à jour : 2026-10-22 02:52:42 UTC</small>
 </div>

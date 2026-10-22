@@ -9,6 +9,8 @@ Pour la version contexte LLM, consultez [llms.txt](../llms.txt).
 | Dépôt | Type | Description |
 | --- | --- | --- |
 
+| **[.github](https://github.com/jihedbfr-art/.github)** | `library` | Shared contribution and community guidance for JihedAiLabs public projects. EN/FR. |
+
 | **[ai-skills](https://github.com/jihedbfr-art/ai-skills)** | `knowledge-base` | Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI |
 
 | **[bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns)** | `knowledge-base` | Real-world orchestration patterns with Camunda + Spring Boot + Kafka, modeled on telecom number portability: transactional outbox, idempotent consumer, sagas, compensation, and SLA timeouts. |
@@ -42,6 +44,8 @@ Pour la version contexte LLM, consultez [llms.txt](../llms.txt).
 | **[openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)** | `library` | Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR. |
 
 | **[spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit)** | `library` | Spring Boot auto-configuration for Keycloak-secured resource servers: realm/resource role mapping + RFC 7807 error responses |
+
+| **[telecom-api-governance-starter](https://github.com/jihedbfr-art/telecom-api-governance-starter)** | `library` | Executable CI examples combining offline OpenAPI and telecom component manifest checks. Synthetic inputs, EN/FR. |
 
 | **[telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)** | `library` | Architecture notes on telecom BSS, OSS and the 5G core: charging, provisioning, TM Forum APIs. Bilingual EN/FR. |
 

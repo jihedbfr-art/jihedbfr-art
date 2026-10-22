@@ -3,6 +3,14 @@
 > Detailed index of JihedAiLabs public repositories.
 
 
+## [.github](https://github.com/jihedbfr-art/.github)
+- **Description**: Shared contribution and community guidance for JihedAiLabs public projects. EN/FR.
+- **Type**: library
+- **Topics**: bilingual, community, contributing
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/.github/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/.github/blob/main/README.md)
+
+
 ## [ai-skills](https://github.com/jihedbfr-art/ai-skills)
 - **Description**: Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI
 - **Type**: knowledge-base
@@ -22,7 +30,7 @@
 ## [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint)
 - **Description**: Offline checks for telecom Component manifests (unknown fields, required fields, types, service consistency). EN/FR.
 - **Type**: library
-- **Topics**: bilingual, kubernetes, linter, manifest-validation, python, telecom, yaml
+- **Topics**: bilingual, kubernetes, linter, manifest-validation, python, telecom, yaml, sarif
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/component-manifest-lint/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/component-manifest-lint/blob/main/README.md)
 
@@ -78,7 +86,7 @@
 ## [jihedailabs-tokenlens](https://github.com/jihedbfr-art/jihedailabs-tokenlens)
 - **Description**: Local, offline report of where your AI coding assistant tokens go — no telemetry, multi-tool.
 - **Type**: library
-- **Topics**: software-engineering
+- **Topics**: ai-coding, cli, developer-tools, privacy, python, token-usage
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedailabs-tokenlens/blob/master/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/jihedailabs-tokenlens/blob/master/README.md)
 
@@ -110,7 +118,7 @@
 ## [mcp-keycloak-guard](https://github.com/jihedbfr-art/mcp-keycloak-guard)
 - **Description**: Reference MCP server that authorizes every tool call against Keycloak realm roles — per-tool RBAC, not just authenticated/unauthenticated.
 - **Type**: library
-- **Topics**: software-engineering
+- **Topics**: java, keycloak, mcp, model-context-protocol, rbac
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/mcp-keycloak-guard/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/mcp-keycloak-guard/blob/main/README.md)
 
@@ -126,7 +134,7 @@
 ## [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel)
 - **Description**: Offline lint and breaking-change check for OpenAPI/Swagger, with telecom-style conventions. EN/FR.
 - **Type**: library
-- **Topics**: api-governance, bilingual, breaking-changes, linter, openapi, python, swagger, telecom
+- **Topics**: api-governance, bilingual, breaking-changes, linter, openapi, python, swagger, telecom, sarif
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/openapi-sentinel/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/openapi-sentinel/blob/main/README.md)
 
@@ -137,6 +145,14 @@
 - **Topics**: jwt, keycloak, oauth2, rfc7807, spring-boot, spring-security, java, oidc, resource-server
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
+
+
+## [telecom-api-governance-starter](https://github.com/jihedbfr-art/telecom-api-governance-starter)
+- **Description**: Executable CI examples combining offline OpenAPI and telecom component manifest checks. Synthetic inputs, EN/FR.
+- **Type**: library
+- **Topics**: api-governance, bilingual, openapi, python, sarif, telecom
+- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/telecom-api-governance-starter/blob/main/README.md)
+- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/telecom-api-governance-starter/blob/main/README.md)
 
 
 ## [telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)
