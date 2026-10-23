@@ -3,14 +3,6 @@
 > Detailed index of JihedAiLabs public repositories.
 
 
-## [.github](https://github.com/jihedbfr-art/.github)
-- **Description**: Shared contribution and community guidance for JihedAiLabs public projects. EN/FR.
-- **Type**: library
-- **Topics**: bilingual, community, contributing
-- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/.github/blob/main/README.md)
-- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/.github/blob/main/README.md)
-
-
 ## [ai-skills](https://github.com/jihedbfr-art/ai-skills)
 - **Description**: Pragmatic AI Engineering Skills Library for LLMs, RAG, Agents, MCP & Spring AI
 - **Type**: knowledge-base
@@ -145,14 +137,6 @@
 - **Topics**: jwt, keycloak, oauth2, rfc7807, spring-boot, spring-security, java, oidc, resource-server
 - **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
 - **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/spring-keycloak-toolkit/blob/main/README.md)
-
-
-## [telecom-api-governance-starter](https://github.com/jihedbfr-art/telecom-api-governance-starter)
-- **Description**: Executable CI examples combining offline OpenAPI and telecom component manifest checks. Synthetic inputs, EN/FR.
-- **Type**: library
-- **Topics**: api-governance, bilingual, openapi, python, sarif, telecom
-- **Agent Entry Point**: [README.md](https://github.com/jihedbfr-art/telecom-api-governance-starter/blob/main/README.md)
-- **Human Entry Point**: [README.md](https://github.com/jihedbfr-art/telecom-api-governance-starter/blob/main/README.md)
 
 
 ## [telecom-architecture](https://github.com/jihedbfr-art/telecom-architecture)

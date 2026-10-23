@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jihedbfr-art/jihedbfr-art/main/schemas/skills-index.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-10-22T02:52:52Z",
+  "generated_at": "2026-10-23T02:56:25Z",
   "owner": {
     "name": "Jihed Ben Arfa",
     "org": "JihedAiLabs",
@@ -12,25 +12,6 @@
     "fr"
   ],
   "repositories": [
-    {
-      "id": ".github",
-      "url": "https://github.com/jihedbfr-art/.github",
-      "kind": "library",
-      "domains": [
-        "bilingual",
-        "community",
-        "contributing"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "README.md"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
-    },
     {
       "id": "ai-skills",
       "url": "https://github.com/jihedbfr-art/ai-skills",
@@ -434,28 +415,6 @@
         "java",
         "oidc",
         "resource-server"
-      ],
-      "entry_points": {
-        "human": "README.md",
-        "agent": "README.md"
-      },
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "status": "active"
-    },
-    {
-      "id": "telecom-api-governance-starter",
-      "url": "https://github.com/jihedbfr-art/telecom-api-governance-starter",
-      "kind": "library",
-      "domains": [
-        "api-governance",
-        "bilingual",
-        "openapi",
-        "python",
-        "sarif",
-        "telecom"
       ],
       "entry_points": {
         "human": "README.md",
