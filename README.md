@@ -43,13 +43,13 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 | Repository | Language | Last Push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-21 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-22 |
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-10-15 |
 
 | [keycloak-spi-workbench](https://github.com/jihedbfr-art/keycloak-spi-workbench) | Java | 2026-09-29 |
 
-| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-10-21 |
+| [spring-keycloak-toolkit](https://github.com/jihedbfr-art/spring-keycloak-toolkit) | Java | 2026-10-22 |
 
 | [ai-skills](https://github.com/jihedbfr-art/ai-skills) | Python | 2026-10-15 |
 
@@ -57,9 +57,9 @@ Production-grade engineering knowledge, executable labs and reusable Spring libr
 
 | [oda-learning-lab](https://github.com/jihedbfr-art/oda-learning-lab) | Python | 2026-10-19 |
 
-| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-21 |
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | Python | 2026-10-22 |
 
-| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-21 |
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | Python | 2026-10-22 |
 
 
 ## Learning paths
@@ -89,5 +89,5 @@ Engineering is not just about writing code; it is primarily about managing compl
   <br/>
   <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
   <br/>
-  <small>Last updated: 2026-10-22 02:52:42 UTC</small>
+  <small>Last updated: 2026-10-23 02:56:19 UTC</small>
 </div>
