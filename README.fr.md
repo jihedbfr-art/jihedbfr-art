@@ -43,7 +43,7 @@ Connaissance d'ingénierie de production, laboratoires exécutables et biblioth�
 | Dépôt | Langage | Dernier push |
 | --- | --- | --- |
 
-| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-23 |
+| [engineering-library](https://github.com/jihedbfr-art/engineering-library) | Java | 2026-10-30 |
 
 | [bpmn-provisioning-patterns](https://github.com/jihedbfr-art/bpmn-provisioning-patterns) | Java | 2026-10-15 |
 
@@ -89,5 +89,5 @@ L'ingénierie n'est pas qu'une question de code, c'est avant tout la maîtrise d
   <br/>
   <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
   <br/>
-  <small>Dernière mise à jour : 2026-10-24 02:53:12 UTC</small>
+  <small>Dernière mise à jour : 2026-10-31 03:40:48 UTC</small>
 </div>
